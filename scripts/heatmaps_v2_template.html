@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PMC Complaints Heatmaps</title>
+<style>
+:root{--bg:#fff;--surface:#fff;--ink:#1a1a18;--ink2:#52514d;--muted:#7a7974;--line:#e4e3df;--tipbg:#1a1a18;--tipfg:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#161614;--surface:#1e1e1c;--ink:#f0efec;--ink2:#b9b8b3;--muted:#8d8c87;--line:#33332f;--tipbg:#f0efec;--tipfg:#161614}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.4 system-ui,sans-serif;padding:20px 16px}
+h1{font-size:20px;margin:0 0 2px}.sub{color:var(--ink2);margin:0 0 14px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.tabs button{border:1px solid var(--line);background:var(--surface);color:var(--ink2);border-radius:6px;padding:6px 12px;font:inherit;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.use{color:var(--ink2);margin:0 0 12px;max-width:900px}
+.controls{display:flex;flex-wrap:wrap;gap:10px 18px;margin-bottom:12px}
+.controls label{display:flex;gap:6px;align-items:center;color:var(--ink2)}
+select{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:5px 8px;font:inherit}
+.wrap{overflow:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface);max-height:72vh}
+table{border-collapse:separate;border-spacing:2px;font-size:12px}
+th{font-weight:500;color:var(--ink2);background:var(--surface);position:sticky;z-index:2}
+thead th{top:0;vertical-align:bottom;height:150px;min-width:44px;padding:0}
+thead th.flat{height:auto;padding:4px 0}
+thead th div{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;max-height:146px;overflow:hidden;text-overflow:ellipsis;margin:0 auto;padding:4px 0}
+thead th.flat div{writing-mode:horizontal-tb;transform:none;padding:0}
+tbody th{left:0;text-align:left;white-space:nowrap;padding:0 10px;z-index:1;max-width:260px;overflow:hidden;text-overflow:ellipsis}
+thead th:first-child{left:0;z-index:3}
+td{min-width:44px;height:28px;text-align:center;border-radius:3px;font-variant-numeric:tabular-nums}
+td.empty{color:var(--muted)}td.low{color:var(--muted);background:repeating-linear-gradient(45deg,transparent 0 4px,var(--line) 4px 5px)}
+td[data-r]:hover{outline:2px solid var(--ink)}
+.legend{display:flex;align-items:center;gap:8px;margin:12px 0;color:var(--ink2);font-size:12px}
+.bar{height:10px;width:200px;border-radius:5px}
+.note{color:var(--muted);font-size:12px;max-width:900px}
+#tip{position:fixed;pointer-events:none;background:var(--tipbg);color:var(--tipfg);padding:8px 10px;border-radius:6px;font-size:12px;display:none;z-index:9;max-width:300px}
+</style>
+</head>
+<body>
+<h1>PMC Complaints Heatmaps</h1>
+<p class="sub">Jul 2025 – Sep 2026 · 161,872 complaints · hover a cell for details</p>
+<div class="tabs" role="tablist" id="tabs"></div>
+<p class="use" id="use"></p>
+<div class="controls" id="controls"></div>
+<div class="wrap"><table id="grid"></table></div>
+<div class="legend"><span id="lo"></span><div class="bar" id="bar"></div><span id="hi"></span></div>
+<p class="note" id="note"></p>
+<div id="tip"></div>
+<script>
+const D=__DATA__;
+const $=id=>document.getElementById(id);
+const fmt=n=>n.toLocaleString('en-IN');
+const BLUE=['#cde2fb','#3987e5','#0d366b'],ORANGE=['#fbe3d6','#eb6834','#7a2a0b'];
+const MIN_N=5;
+// cell: [r,c,n,resolved,medianDays,nDays,breach,nSla]
+const METRICS={
+  count:{label:'Complaints',ramp:BLUE,get:c=>c[2],ok:c=>c[2]>0,f:v=>fmt(Math.round(v)),sqrt:true,min:1},
+  pct:{label:'% resolved',ramp:BLUE,get:c=>c[3]/c[2]*100,ok:c=>c[2]>=MIN_N,f:v=>Math.round(v)+'%',fixedMax:100,min:MIN_N},
+  days:{label:'Median days to resolve',ramp:ORANGE,get:c=>c[4],ok:c=>c[5]>=MIN_N,f:v=>v<10?v.toFixed(1):Math.round(v),min:MIN_N,cap:true},
+  sla:{label:'SLA breach % (resolved after expected date)',ramp:ORANGE,get:c=>c[6]/c[7]*100,ok:c=>c[7]>=MIN_N,f:v=>Math.round(v)+'%',fixedMax:100,min:MIN_N}
+};
+const VIEWS=[
+ {id:'ward_dept',title:'9 · Ward × Department',key:'ward_dept',metrics:['days','pct','count'],def:'days',rowsTop:99,colsTop:15,
+  use:'Where is service slow? Compare wards on the same department, or departments within the same ward. The most actionable view for management.',rl:'Ward',cl:'Department'},
+ {id:'dept_type',title:'10 · Department × Complaint Type',key:'dept_type',metrics:['sla','days','count'],def:'sla',rowsTop:15,colsTop:20,
+  use:'Which complaint types are chronically slow or miss their expected date, and in which department? Shows where process or resources need fixing.',rl:'Department',cl:'Complaint type'},
+ {id:'month_type',title:'4 · Month × Complaint Type',key:'month_type',metrics:['count','pct','days'],def:'count',rowsTop:25,colsTop:99,
+  use:'Seasonality: which problems rise in which months (potholes after monsoon, fogging and dengue, tree falls). Use it to plan staff and budget ahead.',rl:'Complaint type',cl:'Month'},
+ {id:'wd_hour',title:'5 · Weekday × Hour',key:'wd_hour',metrics:['count'],def:'count',rowsTop:7,colsTop:24,
+  use:'When do citizens file complaints? Use it to schedule call-centre, WhatsApp and Twitter response staff. Times are as recorded in the data.',rl:'Weekday',cl:'Hour of day',flat:true}
+];
+let cur=VIEWS[+new URLSearchParams(location.search).get('v')||0]||VIEWS[0],state={};
+const css=(a,b,t)=>{const h=x=>[1,3,5].map(i=>parseInt(x.slice(i,i+2),16));const A=h(a),B=h(b);return A.map((v,i)=>Math.round(v+(B[i]-v)*t))};
+function colorAt(ramp,t){t=Math.max(0,Math.min(1,t));const rgb=t<.5?css(ramp[0],ramp[1],t*2):css(ramp[1],ramp[2],(t-.5)*2);return rgb}
+const lum=([r,g,b])=>{const f=v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)};return .2126*f(r)+.7152*f(g)+.0722*f(b)};
+
+function tabs(){
+  $('tabs').innerHTML='';
+  VIEWS.forEach(v=>{const b=document.createElement('button');b.textContent=v.title;b.setAttribute('role','tab');b.setAttribute('aria-selected',v===cur);b.onclick=()=>{cur=v;tabs();controls();render()};$('tabs').appendChild(b)});
+}
+function controls(){
+  const s=state[cur.id]||(state[cur.id]={m:cur.def,rows:cur.rowsTop,cols:cur.colsTop});
+  $('use').textContent=cur.use;
+  const opt=(arr,sel)=>arr.map(([v,l])=>`<option value="${v}"${v==sel?' selected':''}>${l}</option>`).join('');
+  let h=`<label>Value <select id="m">${opt(cur.metrics.map(m=>[m,METRICS[m].label]),s.m)}</select></label>`;
+  if(cur.rowsTop>10&&cur.rowsTop<99||cur.rowsTop===99)h+=`<label>Rows shown <select id="rn">${opt([[10,'Top 10'],[15,'Top 15'],[25,'Top 25'],[99,'All']],s.rows)}</select></label>`;
+  if(cur.colsTop<99&&cur.colsTop!==24)h+=`<label>Columns shown <select id="cn">${opt([[10,'Top 10'],[15,'Top 15'],[20,'Top 20'],[99,'All']],s.cols)}</select></label>`;
+  $('controls').innerHTML=h;
+  $('m').onchange=e=>{s.m=e.target.value;render()};
+  if($('rn'))$('rn').onchange=e=>{s.rows=+e.target.value;render()};
+  if($('cn'))$('cn').onchange=e=>{s.cols=+e.target.value;render()};
+}
+function render(){
+  const s=state[cur.id],d=D[cur.key],M=METRICS[s.m];
+  const nr=Math.min(s.rows,d.rows.length),nc=Math.min(s.cols,d.cols.length);
+  const grid=new Map();let vals=[];
+  for(const c of d.cells){if(c[0]>=nr||c[1]>=nc)continue;grid.set(c[0]+'|'+c[1],c);if(M.ok(c)){const v=M.get(c);if(v!=null)vals.push(v)}}
+  vals.sort((a,b)=>a-b);
+  let max=M.fixedMax||vals[vals.length-1]||1;
+  if(M.cap&&vals.length>20)max=vals[Math.floor(vals.length*.95)]; // cap at P95 so outliers don't wash out the rest
+  const t=v=>M.fixedMax?v/max:(M.sqrt?Math.sqrt(v/max):v/max);
+  let h='<thead><tr><th class="'+(cur.flat?'flat':'')+'"></th>'+d.cols.slice(0,nc).map(c=>`<th class="${cur.flat?'flat':''}" title="${c}"><div>${cur.flat?c:c}</div></th>`).join('')+'</tr></thead><tbody>';
+  for(let r=0;r<nr;r++){
+    h+=`<tr><th title="${d.rows[r]}">${d.rows[r]}</th>`;
+    for(let c=0;c<nc;c++){
+      const cell=grid.get(r+'|'+c);
+      if(!cell){h+='<td class="empty">·</td>';continue}
+      if(!M.ok(cell)){h+=`<td class="low" data-r="${r}" data-c="${c}" title="Fewer than ${MIN_N} cases"></td>`;continue}
+      const v=M.get(cell),rgb=colorAt(M.ramp,t(v)),fg=lum(rgb)>.3?'#1a1a18':'#fff';
+      h+=`<td data-r="${r}" data-c="${c}" style="background:rgb(${rgb});color:${fg}">${M.f(v)}</td>`;
+    }
+    h+='</tr>';
+  }
+  $('grid').innerHTML=h+'</tbody>';
+  $('lo').textContent=M.cap||M.fixedMax||M.sqrt?'0':'0';
+  $('hi').textContent=M.f(max)+(M.cap?' (95th pct, higher capped)':'');
+  $('bar').style.background=`linear-gradient(90deg,${M.ramp.join(',')})`;
+  $('note').textContent=(s.m==='count'?'':`Cells with fewer than ${MIN_N} cases are hatched. `)+
+    (s.m==='days'?'Days = complaint date to close date (or last action date), resolved complaints only; median is used because a few very old complaints skew averages. ':'')+
+    (s.m==='sla'?'Breach = resolved after the Expected Complaint Date. Open and rejected complaints are not counted. ':'')+
+    (s.m==='pct'?'Resolved = Last Action is "Resolved". Rejected and open complaints count as not resolved. ':'')+
+    'Blank ward names show as "Unknown". Rows and columns are ordered by complaint volume.';
+  const tip=$('tip');
+  $('grid').onmousemove=ev=>{
+    const td=ev.target.closest('td[data-r]');if(!td){tip.style.display='none';return}
+    const c=grid.get(td.dataset.r+'|'+td.dataset.c);
+    let x=`<b>${d.rows[c[0]]}</b><br>${d.cols[c[1]]}<br>${fmt(c[2])} complaints · ${fmt(c[3])} resolved (${(c[3]/c[2]*100).toFixed(1)}%)`;
+    if(c[5])x+=`<br>Median ${c[4]} days to resolve (n=${fmt(c[5])})`;
+    if(c[7])x+=`<br>SLA breached: ${(c[6]/c[7]*100).toFixed(0)}% of ${fmt(c[7])}`;
+    tip.innerHTML=x;tip.style.display='block';tip.style.left=Math.min(ev.clientX+14,innerWidth-320)+'px';tip.style.top=(ev.clientY+14)+'px';
+  };
+  $('grid').onmouseleave=()=>tip.style.display='none';
+}
+tabs();controls();render();
+</script>
+</body>
+</html>

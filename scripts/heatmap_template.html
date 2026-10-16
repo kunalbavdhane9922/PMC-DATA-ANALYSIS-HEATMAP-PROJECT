@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PMC Complaints Heatmap</title>
+<style>
+:root{
+  --bg:#ffffff;--surface:#ffffff;--ink:#1a1a18;--ink2:#52514d;--muted:#7a7974;--line:#e4e3df;--accent:#2a78d6;
+  --r0:#cde2fb;--r1:#b7d3f6;--r2:#9ec5f4;--r3:#86b6ef;--r4:#6da7ec;--r5:#5598e7;--r6:#3987e5;--r7:#2a78d6;--r8:#256abf;--r9:#1c5cab;--r10:#184f95;--r11:#104281;--r12:#0d366b;
+}
+@media (prefers-color-scheme:dark){:root{--bg:#161614;--surface:#1e1e1c;--ink:#f0efec;--ink2:#b9b8b3;--muted:#8d8c87;--line:#33332f;--accent:#6da7ec}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.4 system-ui,sans-serif;padding:20px 16px}
+h1{font-size:20px;margin:0 0 2px}
+.sub{color:var(--ink2);margin:0 0 14px}
+.controls{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin-bottom:12px}
+.controls label{display:flex;gap:6px;align-items:center;color:var(--ink2)}
+select{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:5px 8px;font:inherit}
+.kpis{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px}
+.kpi{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:8px 14px;min-width:120px}
+.kpi b{display:block;font-size:20px}.kpi span{color:var(--muted);font-size:12px}
+.wrap{overflow:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface);max-height:75vh}
+table{border-collapse:separate;border-spacing:2px;font-size:12px}
+th{font-weight:500;color:var(--ink2);background:var(--surface);position:sticky;z-index:2}
+thead th{top:0;vertical-align:bottom;height:150px;min-width:46px;padding:0}
+thead th div{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;max-height:146px;overflow:hidden;text-overflow:ellipsis;margin:0 auto;padding:4px 0}
+tbody th{left:0;text-align:left;white-space:nowrap;padding:0 10px;z-index:1;max-width:230px;overflow:hidden;text-overflow:ellipsis}
+thead th:first-child{left:0;z-index:3}
+td{min-width:46px;height:30px;text-align:center;border-radius:3px;cursor:default;font-variant-numeric:tabular-nums}
+td.empty{background:transparent;color:var(--muted)}
+td:hover{outline:2px solid var(--ink)}
+td.tot,th.tot{font-weight:600;color:var(--ink)}
+.legend{display:flex;align-items:center;gap:8px;margin:12px 0;color:var(--ink2);font-size:12px}
+.bar{height:10px;width:200px;border-radius:5px;background:linear-gradient(90deg,var(--r0),var(--r6),var(--r12))}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);padding:8px 10px;border-radius:6px;font-size:12px;display:none;z-index:9;max-width:280px}
+.note{color:var(--muted);font-size:12px;margin-top:10px}
+</style>
+</head>
+<body>
+<h1>PMC Complaints Heatmap</h1>
+<p class="sub">Jul 2025 – Sep 2026 · darker = higher. Hover a cell for details.</p>
+
+<div class="controls">
+  <label>Rows <select id="rows"><option value="ward">Ward</option><option value="dept">Department</option><option value="type">Complaint Type</option></select></label>
+  <label>Columns <select id="cols"><option value="dept">Department</option><option value="type">Complaint Type</option><option value="ward">Ward</option></select></label>
+  <label>Value <select id="metric"><option value="count">Complaints</option><option value="pct">% Resolved</option></select></label>
+  <label>Top columns <select id="topn"><option>10</option><option selected>15</option><option>25</option><option value="999">All</option></select></label>
+  <label>Filter ward <select id="fward"><option value="">All wards</option></select></label>
+  <label>Filter dept <select id="fdept"><option value="">All departments</option></select></label>
+</div>
+
+<div class="kpis" id="kpis"></div>
+<div class="wrap"><table id="grid"></table></div>
+<div class="legend"><span id="lo">0</span><div class="bar"></div><span id="hi"></span></div>
+<p class="note">Blank ward names are shown as “Unknown”. Zone grouping will be added once a ward → zone mapping is provided. “Head Office” is not a geographic ward.</p>
+<div id="tip"></div>
+
+<script>
+const D=__DATA__;
+const names={ward:D.wards,dept:D.depts,type:D.types};
+const idx={ward:1,dept:2,type:3};
+// row layout: [ward,dept,type,count,resolved]
+const pos={ward:0,dept:1,type:2};
+const $=id=>document.getElementById(id);
+const ramp=['--r0','--r1','--r2','--r3','--r4','--r5','--r6','--r7','--r8','--r9','--r10','--r11','--r12'];
+const fmt=n=>n.toLocaleString('en-IN');
+
+function fillSel(id,list){const s=$(id);list.forEach((n,i)=>{const o=document.createElement('option');o.value=i;o.textContent=n;s.appendChild(o)})}
+fillSel('fward',D.wards);fillSel('fdept',D.depts);
+
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
+function lum(hex){const c=hex.replace('#','');const [r,g,b]=[0,2,4].map(i=>{let v=parseInt(c.substr(i,2),16)/255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)});return .2126*r+.7152*g+.0722*b}
+function color(t){const i=Math.min(ramp.length-1,Math.max(0,Math.round(t*(ramp.length-1))));return css(ramp[i])}
+
+function render(){
+  const R=$('rows').value,C=$('cols').value,m=$('metric').value,top=+$('topn').value;
+  if(R===C){$('grid').innerHTML='<tr><td class="empty">Rows and columns must be different.</td></tr>';return}
+  const fw=$('fward').value,fd=$('fdept').value;
+  const rows=D.rows.filter(r=>(fw===''||r[0]==fw)&&(fd===''||r[1]==fd));
+  const total=rows.reduce((a,r)=>a+r[3],0),res=rows.reduce((a,r)=>a+r[4],0);
+  $('kpis').innerHTML=`<div class="kpi"><b>${fmt(total)}</b><span>Complaints</span></div><div class="kpi"><b>${total?(res/total*100).toFixed(1):0}%</b><span>Resolved</span></div><div class="kpi"><b>${fmt(total-res)}</b><span>Not resolved</span></div>`;
+  const M=new Map(),rt=new Map(),ct=new Map();
+  for(const r of rows){
+    const a=r[pos[R]],b=r[pos[C]],k=a+'|'+b;
+    const e=M.get(k)||[0,0];e[0]+=r[3];e[1]+=r[4];M.set(k,e);
+    const x=rt.get(a)||[0,0];x[0]+=r[3];x[1]+=r[4];rt.set(a,x);
+    const y=ct.get(b)||[0,0];y[0]+=r[3];y[1]+=r[4];ct.set(b,y);
+  }
+  const rowIds=[...rt.keys()].sort((a,b)=>rt.get(b)[0]-rt.get(a)[0]);
+  const colIds=[...ct.keys()].sort((a,b)=>ct.get(b)[0]-ct.get(a)[0]).slice(0,top);
+  const val=e=>!e||!e[0]?null:(m==='count'?e[0]:e[1]/e[0]*100);
+  let max=0;for(const a of rowIds)for(const b of colIds){const v=val(M.get(a+'|'+b));if(v!==null&&v>max)max=v}
+  if(m==='pct')max=100;
+  $('lo').textContent=m==='count'?'0':'0%';$('hi').textContent=m==='count'?fmt(max):'100%';
+  // sqrt scale for counts so mid-range cells stay distinguishable
+  const scale=v=>m==='count'?Math.sqrt(v/max):v/100;
+  let h='<thead><tr><th></th>'+colIds.map(b=>`<th title="${names[C][b]}"><div>${names[C][b]}</div></th>`).join('')+'<th class="tot"><div>Total</div></th></tr></thead><tbody>';
+  for(const a of rowIds){
+    h+=`<tr><th title="${names[R][a]}">${names[R][a]}</th>`;
+    for(const b of colIds){
+      const e=M.get(a+'|'+b),v=val(e);
+      if(v===null){h+='<td class="empty">·</td>';continue}
+      const bg=color(scale(v)),fg=lum(bg)>.3?'#1a1a18':'#ffffff';
+      h+=`<td data-a="${a}" data-b="${b}" style="background:${bg};color:${fg}">${m==='count'?fmt(v):Math.round(v)+'%'}</td>`;
+    }
+    const t=rt.get(a);h+=`<td class="tot empty">${m==='count'?fmt(t[0]):(t[1]/t[0]*100).toFixed(0)+'%'}</td></tr>`;
+  }
+  $('grid').innerHTML=h+'</tbody>';
+  const tip=$('tip');
+  $('grid').onmousemove=ev=>{
+    const td=ev.target.closest('td[data-a]');if(!td){tip.style.display='none';return}
+    const e=M.get(td.dataset.a+'|'+td.dataset.b);
+    tip.innerHTML=`<b>${names[R][td.dataset.a]}</b><br>${names[C][td.dataset.b]}<br>${fmt(e[0])} complaints · ${fmt(e[1])} resolved (${(e[1]/e[0]*100).toFixed(1)}%)`;
+    tip.style.display='block';tip.style.left=Math.min(ev.clientX+14,innerWidth-300)+'px';tip.style.top=(ev.clientY+14)+'px';
+  };
+  $('grid').onmouseleave=()=>tip.style.display='none';
+}
+['rows','cols','metric','topn','fward','fdept'].forEach(id=>$(id).addEventListener('change',render));
+matchMedia('(prefers-color-scheme:dark)').addEventListener('change',render);
+render();
+</script>
+</body>
+</html>

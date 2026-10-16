@@ -1,0 +1,10076 @@
+[
+ {
+  "department": "Solid Waste Management",
+  "count": 32149,
+  "types": [
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 26267,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 14358
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 2595
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 1691
+     },
+     {
+      "name": "Burning of Garbage/Plastic waste",
+      "count": 1485
+     },
+     {
+      "name": "Garbage not lifted from co-authorised collection point / House gully",
+      "count": 1388
+     },
+     {
+      "name": "Removal of dead animals",
+      "count": 1105
+     },
+     {
+      "name": "Garbage vehicle not arrived",
+      "count": 796
+     },
+     {
+      "name": "Removal of Debris",
+      "count": 783
+     },
+     {
+      "name": "Public toilet(s) cleaning",
+      "count": 635
+     },
+     {
+      "name": "Lifiting of tree cutting",
+      "count": 488
+     },
+     {
+      "name": "Public toilet(s) blockage",
+      "count": 341
+     },
+     {
+      "name": "Garbage bin overflowing",
+      "count": 140
+     },
+     {
+      "name": "No water supply in public toilet(s)",
+      "count": 115
+     },
+     {
+      "name": "other (SWM H.O.)",
+      "count": 113
+     },
+     {
+      "name": "Ragpicker not attending",
+      "count": 65
+     },
+     {
+      "name": "Providing/Removing/Replacing dustbins",
+      "count": 49
+     },
+     {
+      "name": "No electricity in public toilet(s)",
+      "count": 41
+     },
+     {
+      "name": "Garbage lorry not covered",
+      "count": 27
+     },
+     {
+      "name": "Usage of Plastic bag by shopkeepers",
+      "count": 18
+     },
+     {
+      "name": "No attendant at public toilets",
+      "count": 16
+     },
+     {
+      "name": "Cleaning of P.S.C block/channels",
+      "count": 11
+     },
+     {
+      "name": "Dustbins not cleaned",
+      "count": 7
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 1690,
+    "subcategories": [
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 869
+     },
+     {
+      "name": "Others (DRN)",
+      "count": 598
+     },
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 70
+     },
+     {
+      "name": "Stopping chamber overflow (HO)",
+      "count": 34
+     },
+     {
+      "name": "Septic Tank Cleaning",
+      "count": 31
+     },
+     {
+      "name": "Problem regarding sewage treatment plant (HO)",
+      "count": 25
+     },
+     {
+      "name": "Repairs of pipe sewers/main sewers",
+      "count": 19
+     },
+     {
+      "name": "Stopping leakage of drainage water in Nalla / River",
+      "count": 19
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection",
+      "count": 8
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 4
+     },
+     {
+      "name": "Repairs to pipe sewers/main sewers (HO)",
+      "count": 4
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes (HO)",
+      "count": 2
+     },
+     {
+      "name": "Nalla cleanig (H.O)",
+      "count": 2
+     },
+     {
+      "name": "Raising of manhole (except in monsoon)",
+      "count": 1
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection (HO)",
+      "count": 1
+     },
+     {
+      "name": "Others (DRN) (HO)",
+      "count": 1
+     },
+     {
+      "name": "Cleaning of strom water chamber and line(H.O)",
+      "count": 1
+     },
+     {
+      "name": "Others (JICA Project) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 821,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 821
+     }
+    ]
+   },
+   {
+    "type": "Garbage Depot Complaint",
+    "count": 819,
+    "subcategories": [
+     {
+      "name": "Burning of Garbage",
+      "count": 819
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 701,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 289
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 217
+     },
+     {
+      "name": "Clearing Water Logging on Road",
+      "count": 65
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 59
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 24
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 17
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 16
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 5
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 4
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 2
+     },
+     {
+      "name": "Repairing / Beautification of Chowk (HO)",
+      "count": 1
+     },
+     {
+      "name": "Repairing pothole around manhole",
+      "count": 1
+     },
+     {
+      "name": "Marking of Parking Line",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 427,
+    "subcategories": [
+     {
+      "name": "Odour(Foul smell) from Garbage Depot",
+      "count": 415
+     },
+     {
+      "name": "Environmental damage",
+      "count": 9
+     },
+     {
+      "name": "Other (Developement Planning)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 312,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 312
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 255,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 119
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 63
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 34
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 14
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 14
+     },
+     {
+      "name": "Policy decisions regarding Encroachment department",
+      "count": 5
+     },
+     {
+      "name": "Illegal religious structures on road/footpath",
+      "count": 3
+     },
+     {
+      "name": "Vehicles of showroom on road/footpath",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 182,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 157
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 23
+     },
+     {
+      "name": "Unauthorised alteration/renovation of building",
+      "count": 1
+     },
+     {
+      "name": "Flat addition and alteration",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 121,
+    "subcategories": [
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 59
+     },
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 50
+     },
+     {
+      "name": "Planting of trees besides divider/foothpath (HO)",
+      "count": 9
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 81,
+    "subcategories": [
+     {
+      "name": "Others (Health)",
+      "count": 40
+     },
+     {
+      "name": "Others License (Parwana)",
+      "count": 17
+     },
+     {
+      "name": "Air/Sound Pollution dute to Machinary",
+      "count": 12
+     },
+     {
+      "name": "Odour(Foul smell) from drains",
+      "count": 5
+     },
+     {
+      "name": "Unauthorised Lodge, Hotels (Food), Mangal Karyalay, Bakery, Medical Shops, Saloon, Beauty Parlor",
+      "count": 4
+     },
+     {
+      "name": "Pet License",
+      "count": 2
+     },
+     {
+      "name": "Unauthorised food selling",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Fogging / Mosquito nuisance / Dengue malaria disease",
+    "count": 72,
+    "subcategories": [
+     {
+      "name": "Mosquito nuisance/Fogging",
+      "count": 53
+     },
+     {
+      "name": "dengu case etc.",
+      "count": 9
+     },
+     {
+      "name": "Unauthorised / Uncovered water storage tanks",
+      "count": 7
+     },
+     {
+      "name": "hyacinth at river",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 60,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 39
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 8
+     },
+     {
+      "name": "leakages in bulding",
+      "count": 4
+     },
+     {
+      "name": "Furniture found broken in the classes. (HO)",
+      "count": 4
+     },
+     {
+      "name": "Water pipe leakage in building premises",
+      "count": 2
+     },
+     {
+      "name": "Repairing works of building",
+      "count": 1
+     },
+     {
+      "name": "Toilet not cleaned",
+      "count": 1
+     },
+     {
+      "name": "Choke in main drain",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Communicable Disease",
+    "count": 53,
+    "subcategories": [
+     {
+      "name": "Diseases like Swine Flu, Dengue, Chikungunya etc",
+      "count": 36
+     },
+     {
+      "name": "Others (Communicable Disease)",
+      "count": 17
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 43,
+    "subcategories": [
+     {
+      "name": "Other (Tree Authority)",
+      "count": 20
+     },
+     {
+      "name": "Fallen tree on road",
+      "count": 9
+     },
+     {
+      "name": "Trimming of branches in government / public place / road",
+      "count": 6
+     },
+     {
+      "name": "Branch of tree / complete tree cutting",
+      "count": 4
+     },
+     {
+      "name": "Trimming of branches in Roadside trees",
+      "count": 2
+     },
+     {
+      "name": "Illegal Cutting of tree",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 40,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 37
+     },
+     {
+      "name": "Water Hyacinth removal",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 27,
+    "subcategories": [
+     {
+      "name": "Others (Water Supply)",
+      "count": 8
+     },
+     {
+      "name": "Water Flowing / wastage",
+      "count": 7
+     },
+     {
+      "name": "NO water Supply",
+      "count": 5
+     },
+     {
+      "name": "Pipeline/Valve Leakage of PMC line",
+      "count": 3
+     },
+     {
+      "name": "Contamination / Turbid Water Problem",
+      "count": 3
+     },
+     {
+      "name": "Leakage of public toilet water tank",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Stray Animals",
+    "count": 26,
+    "subcategories": [
+     {
+      "name": "Other Animals Nuisance",
+      "count": 23
+     },
+     {
+      "name": "Pig Nuisance",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 24,
+    "subcategories": [
+     {
+      "name": "A new street light (new demand)",
+      "count": 16
+     },
+     {
+      "name": "Making street light functional",
+      "count": 5
+     },
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 17,
+    "subcategories": [
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 9
+     },
+     {
+      "name": "Office / Department related Complaint",
+      "count": 7
+     },
+     {
+      "name": "Other (GAD)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 16,
+    "subcategories": [
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 8
+     },
+     {
+      "name": "PMC Properties related complaints",
+      "count": 4
+     },
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 2
+     },
+     {
+      "name": "Unauthorised use of room",
+      "count": 1
+     },
+     {
+      "name": "Unauthorised materials/Furniture found",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Slum",
+    "count": 13,
+    "subcategories": [
+     {
+      "name": "Other (Slum)",
+      "count": 13
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 12,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 12
+     }
+    ]
+   },
+   {
+    "type": "Bridge / Overbridge / Subway / pedestrian",
+    "count": 11,
+    "subcategories": [
+     {
+      "name": "Repair and maintenance of Bridge ,Sub-ways & Pedestrian",
+      "count": 10
+     },
+     {
+      "name": "Development of Bridge , Sub-ways & Pedestrian",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 8
+     },
+     {
+      "name": "Repairing of playing equipments in garden",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Sports",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "other (Sports)",
+      "count": 6
+     },
+     {
+      "name": "Sports Ground Cleaning",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized slaughterhouse / crude meat",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "Illegal Slaughter House",
+      "count": 5
+     },
+     {
+      "name": "Others (Khatik Vibhag)",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 5
+     },
+     {
+      "name": "Workshop or Machinery without License",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Mobile App Issue",
+      "count": 3
+     },
+     {
+      "name": "Website /Web Application Related",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Mandai",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (Mandai)",
+      "count": 2
+     },
+     {
+      "name": "Complaint related to Mandai Stall / Gaala",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Vehicle department",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Rash Driving of PMC vehicles",
+      "count": 2
+     },
+     {
+      "name": "Pollution due to PMC vehicle",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "River Front development Project",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "River Front development Project",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Garden Electric maintenance work",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Electrical)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Stray Dogs",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Stray Dogs - Unsterilised Dogs",
+      "count": 1
+     },
+     {
+      "name": "Voilent / Suspected Rabies dogs",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Property Tax Assessment / Payment",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Property Tax)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Crematorium electrical work(H.O)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Crematorium electrical work(H.O)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Primary Education",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Related to PMC / Private Schools",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Traffic Signal",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-signal Electrical)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Family Welfare",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (City Family Welfare)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Pune Smart City (PSCDCL)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Pan City Project",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Land Acquisition",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Complaint Related to Land Acquisition",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Road",
+  "count": 28611,
+  "types": [
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 26144,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 10202
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 5786
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 5010
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 1542
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 1034
+     },
+     {
+      "name": "Clearing Water Logging on Road",
+      "count": 831
+     },
+     {
+      "name": "Repairing pothole around manhole",
+      "count": 525
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 453
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 212
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 158
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 97
+     },
+     {
+      "name": "About New / Old Zebra Crossing",
+      "count": 96
+     },
+     {
+      "name": "Marking of Parking Line",
+      "count": 41
+     },
+     {
+      "name": "Raising of manhole(except in monsoon)",
+      "count": 39
+     },
+     {
+      "name": "Stop line at Signal before Zebra Crossing",
+      "count": 31
+     },
+     {
+      "name": "Repairing / Beautification of Chowk (HO)",
+      "count": 31
+     },
+     {
+      "name": "Repairing potholes on Road (HO)",
+      "count": 23
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths (HO)",
+      "count": 12
+     },
+     {
+      "name": "Repairing pothole around manhole (HO)",
+      "count": 6
+     },
+     {
+      "name": "Marking of Parking Line (HO)",
+      "count": 6
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker (HO)",
+      "count": 3
+     },
+     {
+      "name": "Clearing Water Logging on Road (HO)",
+      "count": 3
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover (HO)",
+      "count": 2
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 692,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 160
+     },
+     {
+      "name": "Removal of Debris",
+      "count": 153
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 151
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 63
+     },
+     {
+      "name": "Public toilet(s) blockage",
+      "count": 32
+     },
+     {
+      "name": "Garbage not lifted from co-authorised collection point / House gully",
+      "count": 26
+     },
+     {
+      "name": "Garbage vehicle not arrived",
+      "count": 18
+     },
+     {
+      "name": "Burning of Garbage/Plastic waste",
+      "count": 18
+     },
+     {
+      "name": "Garbage bin overflowing",
+      "count": 12
+     },
+     {
+      "name": "No water supply in public toilet(s)",
+      "count": 11
+     },
+     {
+      "name": "Public toilet(s) cleaning",
+      "count": 11
+     },
+     {
+      "name": "Lifiting of tree cutting",
+      "count": 9
+     },
+     {
+      "name": "Cleaning of P.S.C block/channels",
+      "count": 8
+     },
+     {
+      "name": "Providing/Removing/Replacing dustbins",
+      "count": 7
+     },
+     {
+      "name": "Removal of dead animals",
+      "count": 6
+     },
+     {
+      "name": "Ragpicker not attending",
+      "count": 3
+     },
+     {
+      "name": "other (SWM H.O.)",
+      "count": 2
+     },
+     {
+      "name": "No electricity in public toilet(s)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 677,
+    "subcategories": [
+     {
+      "name": "Others (DRN)",
+      "count": 282
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 129
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 128
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection",
+      "count": 63
+     },
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 30
+     },
+     {
+      "name": "Repairs of pipe sewers/main sewers",
+      "count": 10
+     },
+     {
+      "name": "Stopping chamber overflow (HO)",
+      "count": 8
+     },
+     {
+      "name": "Raising of manhole (except in monsoon)",
+      "count": 7
+     },
+     {
+      "name": "Stopping leakage of drainage water in Nalla / River",
+      "count": 6
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection (HO)",
+      "count": 4
+     },
+     {
+      "name": "Others (JICA Project) (HO)",
+      "count": 3
+     },
+     {
+      "name": "Repairs to pipe sewers/main sewers (HO)",
+      "count": 2
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes (HO)",
+      "count": 2
+     },
+     {
+      "name": "Others (DRN) (HO)",
+      "count": 1
+     },
+     {
+      "name": "Cleaning of strom water chamber and line(H.O)",
+      "count": 1
+     },
+     {
+      "name": "Nalla cleanig (H.O)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 238,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 100
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 65
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 24
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 20
+     },
+     {
+      "name": "Policy decisions regarding Encroachment department",
+      "count": 14
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 9
+     },
+     {
+      "name": "Vehicles of showroom on road/footpath",
+      "count": 3
+     },
+     {
+      "name": "Illegal religious structures on road/footpath",
+      "count": 2
+     },
+     {
+      "name": "Regarding Illegal religious structures on roads/footpaths in the city",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 117,
+    "subcategories": [
+     {
+      "name": "Complaint against DP Road",
+      "count": 81
+     },
+     {
+      "name": "Other (Developement Planning)",
+      "count": 22
+     },
+     {
+      "name": "Ongoing DP process",
+      "count": 11
+     },
+     {
+      "name": "Environmental damage",
+      "count": 2
+     },
+     {
+      "name": "Complaint against DP Reservation",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bridge / Overbridge / Subway / pedestrian",
+    "count": 114,
+    "subcategories": [
+     {
+      "name": "Repair and maintenance of Bridge ,Sub-ways & Pedestrian",
+      "count": 63
+     },
+     {
+      "name": "Development of Bridge , Sub-ways & Pedestrian",
+      "count": 51
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 92,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 92
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 87,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 81
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 5
+     },
+     {
+      "name": "Unauthorised alteration/renovation of building",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 71,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 62
+     },
+     {
+      "name": "Overflow of waste material (HO)",
+      "count": 3
+     },
+     {
+      "name": "Water clogging in building premises",
+      "count": 1
+     },
+     {
+      "name": "About Compondwall and gate reparing",
+      "count": 1
+     },
+     {
+      "name": "Water pipe leakage in building premises",
+      "count": 1
+     },
+     {
+      "name": "Overflow of waste material",
+      "count": 1
+     },
+     {
+      "name": "Furniture found broken in the classes. (HO)",
+      "count": 1
+     },
+     {
+      "name": "Door/Window/Staircase etc. found broken (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 56,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 53
+     },
+     {
+      "name": "Others(LIC-Skysign)",
+      "count": 2
+     },
+     {
+      "name": "All types of payment related issue",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 54,
+    "subcategories": [
+     {
+      "name": "Others (Water Supply)",
+      "count": 32
+     },
+     {
+      "name": "Pipeline/Valve Leakage of PMC line",
+      "count": 12
+     },
+     {
+      "name": "Water Flowing / wastage",
+      "count": 6
+     },
+     {
+      "name": "NO water Supply",
+      "count": 2
+     },
+     {
+      "name": "Low pressure to entire area",
+      "count": 1
+     },
+     {
+      "name": "Contamination / Turbid Water Problem",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 54,
+    "subcategories": [
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 36
+     },
+     {
+      "name": "Making street light functional",
+      "count": 9
+     },
+     {
+      "name": "A new street light (new demand)",
+      "count": 8
+     },
+     {
+      "name": "Others Electric H.O",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Traffic-Planning",
+    "count": 43,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-Planning)",
+      "count": 24
+     },
+     {
+      "name": "New P1 P2 zone required",
+      "count": 10
+     },
+     {
+      "name": "Development of parking reservations",
+      "count": 4
+     },
+     {
+      "name": "Regarding Pay and park on road",
+      "count": 2
+     },
+     {
+      "name": "Parking policy",
+      "count": 2
+     },
+     {
+      "name": "Require name for road and chowk",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 26,
+    "subcategories": [
+     {
+      "name": "Other (Tree Authority)",
+      "count": 22
+     },
+     {
+      "name": "Branch of tree / complete tree cutting",
+      "count": 2
+     },
+     {
+      "name": "Illegal Cutting of tree",
+      "count": 1
+     },
+     {
+      "name": "Trimming of branches in Roadside trees",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 24,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 10
+     },
+     {
+      "name": "Planting of trees besides divider/foothpath (HO)",
+      "count": 9
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 4
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 18,
+    "subcategories": [
+     {
+      "name": "Repairing of playing equipments in garden",
+      "count": 7
+     },
+     {
+      "name": "Repairing of civil work in Garden",
+      "count": 5
+     },
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 4
+     },
+     {
+      "name": "Repairing of Jogging Track in garden",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 18,
+    "subcategories": [
+     {
+      "name": "Mobile App Issue",
+      "count": 12
+     },
+     {
+      "name": "Other (I.T.)",
+      "count": 4
+     },
+     {
+      "name": "CFC related issues",
+      "count": 1
+     },
+     {
+      "name": "Website /Web Application Related",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 17,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 17
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 16,
+    "subcategories": [
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 9
+     },
+     {
+      "name": "Office / Department related Complaint",
+      "count": 7
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 13,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 13
+     }
+    ]
+   },
+   {
+    "type": "RTI Related Complaint",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Others",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Others (Health)",
+      "count": 2
+     },
+     {
+      "name": "Air/Sound Pollution dute to Machinary",
+      "count": 2
+     },
+     {
+      "name": "Others License (Parwana)",
+      "count": 1
+     },
+     {
+      "name": "Unauthorised Lodge, Hotels (Food), Mangal Karyalay, Bakery, Medical Shops, Saloon, Beauty Parlor",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Slum",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Other (Slum)",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Fogging / Mosquito nuisance / Dengue malaria disease",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Mosquito nuisance/Fogging",
+      "count": 1
+     },
+     {
+      "name": "Unauthorised / Uncovered water storage tanks",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Traffic Signal",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Removal of signal pole",
+      "count": 1
+     },
+     {
+      "name": "Other (Traffic-signal Electrical)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Bicycle Plan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Bicycle Plan",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Primary Education",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Primary Education)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Property Tax Assessment / Payment",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Property Tax)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Lashkar Water Supply",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "NO water Supply",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Mandai",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Mandai)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Non-maintenance of premises",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Heritage Cell (Bhavan HO)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Cleanliness at Heritage places",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-SOLAR VERMI & RAINWATER HARVESTING (SVR)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Solar, Vermiculture, Rainwater harvesting discount",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Pune Smart City (PSCDCL)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Aundh, Baner, Balewadi Projects",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "RCH / NUHM",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (RCH / NUHM)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Land Acquisition",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Complaint Related to Land Acquisition",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garbage Depot Complaint",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Burning of Garbage",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Vehicle department",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "PMC Vehicle without number plate",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Drainage",
+  "count": 19425,
+  "types": [
+   {
+    "type": "Drainage",
+    "count": 16978,
+    "subcategories": [
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 9824
+     },
+     {
+      "name": "Others (DRN)",
+      "count": 3984
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 837
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection",
+      "count": 568
+     },
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 509
+     },
+     {
+      "name": "Stopping chamber overflow (HO)",
+      "count": 491
+     },
+     {
+      "name": "Repairs of pipe sewers/main sewers",
+      "count": 218
+     },
+     {
+      "name": "Stopping leakage of drainage water in Nalla / River",
+      "count": 183
+     },
+     {
+      "name": "Problem regarding sewage treatment plant (HO)",
+      "count": 87
+     },
+     {
+      "name": "Repairs to pipe sewers/main sewers (HO)",
+      "count": 80
+     },
+     {
+      "name": "Raising of manhole (except in monsoon)",
+      "count": 46
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes (HO)",
+      "count": 34
+     },
+     {
+      "name": "Nalla cleanig (H.O)",
+      "count": 32
+     },
+     {
+      "name": "Septic Tank Cleaning",
+      "count": 24
+     },
+     {
+      "name": "Cleaning of strom water chamber and line(H.O)",
+      "count": 20
+     },
+     {
+      "name": "Others (JICA Project) (HO)",
+      "count": 18
+     },
+     {
+      "name": "Others (DRN) (HO)",
+      "count": 15
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection (HO)",
+      "count": 5
+     },
+     {
+      "name": "Stopping leakage of drainage water in Nalla / River (HO)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 1558,
+    "subcategories": [
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 423
+     },
+     {
+      "name": "Others road",
+      "count": 408
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 296
+     },
+     {
+      "name": "Clearing Water Logging on Road",
+      "count": 202
+     },
+     {
+      "name": "Repairing pothole around manhole",
+      "count": 79
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 73
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 34
+     },
+     {
+      "name": "Raising of manhole(except in monsoon)",
+      "count": 12
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 10
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 7
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 5
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 3
+     },
+     {
+      "name": "Clearing Water Logging on Road (HO)",
+      "count": 2
+     },
+     {
+      "name": "Marking of Parking Line",
+      "count": 2
+     },
+     {
+      "name": "Repairing / Beautification of Chowk (HO)",
+      "count": 1
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 258,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 100
+     },
+     {
+      "name": "Public toilet(s) blockage",
+      "count": 35
+     },
+     {
+      "name": "Removal of Debris",
+      "count": 30
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 25
+     },
+     {
+      "name": "Cleaning of P.S.C block/channels",
+      "count": 16
+     },
+     {
+      "name": "Public toilet(s) cleaning",
+      "count": 15
+     },
+     {
+      "name": "No water supply in public toilet(s)",
+      "count": 11
+     },
+     {
+      "name": "other (SWM H.O.)",
+      "count": 7
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 7
+     },
+     {
+      "name": "Garbage not lifted from co-authorised collection point / House gully",
+      "count": 4
+     },
+     {
+      "name": "Removal of dead animals",
+      "count": 3
+     },
+     {
+      "name": "No electricity in public toilet(s)",
+      "count": 1
+     },
+     {
+      "name": "No attendant at public toilets",
+      "count": 1
+     },
+     {
+      "name": "Garbage vehicle not arrived",
+      "count": 1
+     },
+     {
+      "name": "Garbage bin overflowing",
+      "count": 1
+     },
+     {
+      "name": "Usage of Plastic bag by shopkeepers",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 148,
+    "subcategories": [
+     {
+      "name": "Furniture found broken in the classes. (HO)",
+      "count": 89
+     },
+     {
+      "name": "Other",
+      "count": 36
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 7
+     },
+     {
+      "name": "Water clogging in building premises",
+      "count": 5
+     },
+     {
+      "name": "Choke in main drain",
+      "count": 4
+     },
+     {
+      "name": "Door/Window/Staircase etc. found broken (HO)",
+      "count": 2
+     },
+     {
+      "name": "Water pipe leakage in building premises",
+      "count": 2
+     },
+     {
+      "name": "Repairing works related to statues",
+      "count": 1
+     },
+     {
+      "name": "PMC building construction issues (HO)",
+      "count": 1
+     },
+     {
+      "name": "Repairing works of building",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 110,
+    "subcategories": [
+     {
+      "name": "Contamination / Turbid Water Problem",
+      "count": 48
+     },
+     {
+      "name": "Pipeline/Valve Leakage of PMC line",
+      "count": 31
+     },
+     {
+      "name": "Water Flowing / wastage",
+      "count": 15
+     },
+     {
+      "name": "Others (Water Supply)",
+      "count": 13
+     },
+     {
+      "name": "Leakage of public toilet water tank",
+      "count": 2
+     },
+     {
+      "name": "NO water Supply",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 91,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 91
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 85,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 85
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 33,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 12
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 11
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 5
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 3
+     },
+     {
+      "name": "Illegal religious structures on road/footpath",
+      "count": 1
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 29,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 24
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 3
+     },
+     {
+      "name": "Unauthorised alteration/renovation of building",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 21,
+    "subcategories": [
+     {
+      "name": "A new street light (new demand)",
+      "count": 18
+     },
+     {
+      "name": "Making street light functional",
+      "count": 1
+     },
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 1
+     },
+     {
+      "name": "Repairing street light pole (damaged / fallen)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 17,
+    "subcategories": [
+     {
+      "name": "Odour(Foul smell) from drains",
+      "count": 13
+     },
+     {
+      "name": "Others (Health)",
+      "count": 3
+     },
+     {
+      "name": "Unauthorised flour mill",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Fogging / Mosquito nuisance / Dengue malaria disease",
+    "count": 17,
+    "subcategories": [
+     {
+      "name": "Mosquito nuisance/Fogging",
+      "count": 10
+     },
+     {
+      "name": "Unauthorised / Uncovered water storage tanks",
+      "count": 4
+     },
+     {
+      "name": "dengu case etc.",
+      "count": 2
+     },
+     {
+      "name": "hyacinth at river",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 11,
+    "subcategories": [
+     {
+      "name": "Other (Developement Planning)",
+      "count": 5
+     },
+     {
+      "name": "Environmental damage",
+      "count": 5
+     },
+     {
+      "name": "Ongoing DP process",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Communicable Disease",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "Diseases like Swine Flu, Dengue, Chikungunya etc",
+      "count": 5
+     },
+     {
+      "name": "Others (Communicable Disease)",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 7
+     },
+     {
+      "name": "Water Hyacinth removal",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Bridge / Overbridge / Subway / pedestrian",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Repair and maintenance of Bridge ,Sub-ways & Pedestrian",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 2
+     },
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 2
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 3
+     },
+     {
+      "name": "Office / Department related Complaint",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 2
+     },
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 1
+     },
+     {
+      "name": "PMC Properties related complaints",
+      "count": 1
+     },
+     {
+      "name": "Non-maintenance of premises",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garbage Depot Complaint",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Burning of Garbage",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "River Front development Project",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "River Front development Project",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "RCH / NUHM",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (RCH / NUHM)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Electrical(H.O)",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Electrical(H.O)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "CFC related issues",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Slum",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (Slum)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Traffic-Planning",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-Planning)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Primary Education",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Related to PMC / Private Schools",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Hospitals treatment",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Related to PMC Hospital, Treatment and Staff",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Stray Animals",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other Animals Nuisance",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Illegal Cutting of tree",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Lashkar Water Supply",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Water Supply)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Water Supply",
+  "count": 17021,
+  "types": [
+   {
+    "type": "Water Supply",
+    "count": 15864,
+    "subcategories": [
+     {
+      "name": "NO water Supply",
+      "count": 4722
+     },
+     {
+      "name": "Others (Water Supply)",
+      "count": 2970
+     },
+     {
+      "name": "Pipeline/Valve Leakage of PMC line",
+      "count": 2532
+     },
+     {
+      "name": "Low pressure to entire area",
+      "count": 1580
+     },
+     {
+      "name": "Contamination / Turbid Water Problem",
+      "count": 1435
+     },
+     {
+      "name": "Water Flowing / wastage",
+      "count": 947
+     },
+     {
+      "name": "Low water pressure to Individual",
+      "count": 905
+     },
+     {
+      "name": "No water as per time table",
+      "count": 402
+     },
+     {
+      "name": "Unauthorised tapping of water connection/Water Theft",
+      "count": 196
+     },
+     {
+      "name": "Motor / Pump on water line of pmc",
+      "count": 31
+     },
+     {
+      "name": "Water meter not working",
+      "count": 29
+     },
+     {
+      "name": "Correction in water meter bill (Name/Address/Amount etc)",
+      "count": 29
+     },
+     {
+      "name": "Leakage of public toilet water tank",
+      "count": 25
+     },
+     {
+      "name": "Removal / Installation of new water meters",
+      "count": 21
+     },
+     {
+      "name": "Water misuse (washing Center/Spreading)",
+      "count": 18
+     },
+     {
+      "name": "Unauthorised use of water from Residential to Commercial area",
+      "count": 17
+     },
+     {
+      "name": "Others (Election)",
+      "count": 2
+     },
+     {
+      "name": "Complaints against PMC Corporators",
+      "count": 1
+     },
+     {
+      "name": "Regarding ward limit",
+      "count": 1
+     },
+     {
+      "name": "Regarding code of conduct",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 541,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 283
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 118
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 73
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 23
+     },
+     {
+      "name": "Clearing Water Logging on Road",
+      "count": 17
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 8
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 6
+     },
+     {
+      "name": "Repairing pothole around manhole",
+      "count": 5
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 2
+     },
+     {
+      "name": "Raising of manhole(except in monsoon)",
+      "count": 2
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 2
+     },
+     {
+      "name": "Repairing pothole around manhole (HO)",
+      "count": 1
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 351,
+    "subcategories": [
+     {
+      "name": "Problem regarding sewage treatment plant (HO)",
+      "count": 233
+     },
+     {
+      "name": "Others (DRN)",
+      "count": 56
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 40
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 6
+     },
+     {
+      "name": "Stopping leakage of drainage water in Nalla / River",
+      "count": 4
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection",
+      "count": 3
+     },
+     {
+      "name": "Repairs to pipe sewers/main sewers (HO)",
+      "count": 3
+     },
+     {
+      "name": "Others (JICA Project) (HO)",
+      "count": 2
+     },
+     {
+      "name": "Stopping chamber overflow (HO)",
+      "count": 2
+     },
+     {
+      "name": "Septic Tank Cleaning",
+      "count": 1
+     },
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Lashkar Water Supply",
+    "count": 102,
+    "subcategories": [
+     {
+      "name": "NO water Supply",
+      "count": 20
+     },
+     {
+      "name": "Low water pressure to Individual",
+      "count": 16
+     },
+     {
+      "name": "Low pressure to entire area",
+      "count": 15
+     },
+     {
+      "name": "Contamination / Turbid Water Problem",
+      "count": 13
+     },
+     {
+      "name": "Pipeline/Valve Leakage of PMC line",
+      "count": 7
+     },
+     {
+      "name": "No water as per time table",
+      "count": 7
+     },
+     {
+      "name": "Others (Water Supply)",
+      "count": 7
+     },
+     {
+      "name": "Water Flowing / wastage",
+      "count": 6
+     },
+     {
+      "name": "Unauthorised tapping of water connection/Water Theft",
+      "count": 3
+     },
+     {
+      "name": "Correction in water meter bill (Name/Address/Amount etc)",
+      "count": 3
+     },
+     {
+      "name": "Unauthorised use of water from Residential to Commercial area",
+      "count": 2
+     },
+     {
+      "name": "Motor / Pump on water line of pmc",
+      "count": 2
+     },
+     {
+      "name": "Water meter not working",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 41,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 14
+     },
+     {
+      "name": "No water supply in public toilet(s)",
+      "count": 14
+     },
+     {
+      "name": "Removal of Debris",
+      "count": 4
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 3
+     },
+     {
+      "name": "Public toilet(s) cleaning",
+      "count": 2
+     },
+     {
+      "name": "other (SWM H.O.)",
+      "count": 2
+     },
+     {
+      "name": "Public toilet(s) blockage",
+      "count": 1
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 21,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 18
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 2
+     },
+     {
+      "name": "Unauthorised alteration/renovation of building",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 19,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 19
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 15,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 9
+     },
+     {
+      "name": "Water pipe leakage in building premises",
+      "count": 4
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 1
+     },
+     {
+      "name": "Furniture found broken in the classes. (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 12,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 7
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 2
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 2
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 10
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 10
+     }
+    ]
+   },
+   {
+    "type": "Property Tax Assessment / Payment",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Other (Property Tax)",
+      "count": 4
+     },
+     {
+      "name": "Correction in outstanding Propert Tax",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other (Developement Planning)",
+      "count": 3
+     },
+     {
+      "name": "Ongoing DP process",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 2
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Fogging / Mosquito nuisance / Dengue malaria disease",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Mosquito nuisance/Fogging",
+      "count": 2
+     },
+     {
+      "name": "Unauthorised / Uncovered water storage tanks",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 2
+     },
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bridge / Overbridge / Subway / pedestrian",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Repair and maintenance of Bridge ,Sub-ways & Pedestrian",
+      "count": 2
+     },
+     {
+      "name": "Development of Bridge , Sub-ways & Pedestrian",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Communicable Disease",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others (Communicable Disease)",
+      "count": 2
+     },
+     {
+      "name": "Diseases like Swine Flu, Dengue, Chikungunya etc",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 1
+     },
+     {
+      "name": "Repairing of civil work in Garden",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others License (Parwana)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 1
+     },
+     {
+      "name": "Making street light functional",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Electrical",
+  "count": 16095,
+  "types": [
+   {
+    "type": "Street Lights",
+    "count": 14900,
+    "subcategories": [
+     {
+      "name": "Making street light functional",
+      "count": 11450
+     },
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 1667
+     },
+     {
+      "name": "Repairing street light pole (damaged / fallen)",
+      "count": 690
+     },
+     {
+      "name": "A new street light (new demand)",
+      "count": 433
+     },
+     {
+      "name": "Shut down street light",
+      "count": 357
+     },
+     {
+      "name": "Preventing electrocution / shock",
+      "count": 78
+     },
+     {
+      "name": "Removing street light pole (pole obstructing road)",
+      "count": 69
+     },
+     {
+      "name": "Others Electric H.O",
+      "count": 65
+     },
+     {
+      "name": "Removal of open electric box (silver color) on street light pole",
+      "count": 41
+     },
+     {
+      "name": "Preventing use of street lights at early evening",
+      "count": 29
+     },
+     {
+      "name": "Public Toilets water motor not working",
+      "count": 17
+     },
+     {
+      "name": "Crematorium electrical work(H.O)",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Traffic Signal",
+    "count": 409,
+    "subcategories": [
+     {
+      "name": "New signal required",
+      "count": 130
+     },
+     {
+      "name": "Signal not working",
+      "count": 128
+     },
+     {
+      "name": "Other (Traffic-signal Electrical)",
+      "count": 81
+     },
+     {
+      "name": "Repairing and maintenance of Signal",
+      "count": 64
+     },
+     {
+      "name": "Removal of signal pole",
+      "count": 6
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 178,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 95
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 34
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 15
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 11
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 8
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 3
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 2
+     },
+     {
+      "name": "Repairing pothole around manhole",
+      "count": 2
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 2
+     },
+     {
+      "name": "About New / Old Zebra Crossing",
+      "count": 2
+     },
+     {
+      "name": "Clearing Water Logging on Road",
+      "count": 1
+     },
+     {
+      "name": "Repairing / Beautification of Chowk (HO)",
+      "count": 1
+     },
+     {
+      "name": "Marking of Parking Line (HO)",
+      "count": 1
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 135,
+    "subcategories": [
+     {
+      "name": "No electricity in public toilet(s)",
+      "count": 103
+     },
+     {
+      "name": "Others (SWM )",
+      "count": 16
+     },
+     {
+      "name": "No water supply in public toilet(s)",
+      "count": 4
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 2
+     },
+     {
+      "name": "Removal of Debris",
+      "count": 2
+     },
+     {
+      "name": "Lifiting of tree cutting",
+      "count": 2
+     },
+     {
+      "name": "No attendant at public toilets",
+      "count": 1
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 1
+     },
+     {
+      "name": "Garbage not lifted from co-authorised collection point / House gully",
+      "count": 1
+     },
+     {
+      "name": "Public toilet(s) blockage",
+      "count": 1
+     },
+     {
+      "name": "Public toilet(s) cleaning",
+      "count": 1
+     },
+     {
+      "name": "other (SWM H.O.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Electrical(H.O)",
+    "count": 123,
+    "subcategories": [
+     {
+      "name": "Electrical(H.O)",
+      "count": 123
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 70,
+    "subcategories": [
+     {
+      "name": "Overflow of waste material (HO)",
+      "count": 41
+     },
+     {
+      "name": "Other",
+      "count": 16
+     },
+     {
+      "name": "Repairing works related to statues",
+      "count": 4
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 3
+     },
+     {
+      "name": "Repairing works of building",
+      "count": 2
+     },
+     {
+      "name": "About Compondwall and gate reparing",
+      "count": 1
+     },
+     {
+      "name": "Found encroachment in the school premise (HO)",
+      "count": 1
+     },
+     {
+      "name": "No electricity supply",
+      "count": 1
+     },
+     {
+      "name": "Door/Window/Staircase etc. found broken (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Electric maintenance work",
+    "count": 60,
+    "subcategories": [
+     {
+      "name": "Repairing of Lights / Halogen in Garden",
+      "count": 37
+     },
+     {
+      "name": "Others (Garden-Electrical)",
+      "count": 23
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 50,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 50
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 37,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 20
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 6
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 3
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 3
+     },
+     {
+      "name": "Vehicles of showroom on road/footpath",
+      "count": 2
+     },
+     {
+      "name": "Policy decisions regarding Encroachment department",
+      "count": 1
+     },
+     {
+      "name": "Illegal religious structures on road/footpath",
+      "count": 1
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 13,
+    "subcategories": [
+     {
+      "name": "Other (Tree Authority)",
+      "count": 6
+     },
+     {
+      "name": "Trimming of branches in government / public place / road",
+      "count": 2
+     },
+     {
+      "name": "Branch of tree / complete tree cutting",
+      "count": 2
+     },
+     {
+      "name": "Fallen tree on road",
+      "count": 2
+     },
+     {
+      "name": "Trimming of branches in Roadside trees",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 12,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 12
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 11,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 7
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Bridge / Overbridge / Subway / pedestrian",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "Repair and maintenance of Bridge ,Sub-ways & Pedestrian",
+      "count": 9
+     },
+     {
+      "name": "Development of Bridge , Sub-ways & Pedestrian",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 7
+     },
+     {
+      "name": "All types of payment related issue",
+      "count": 1
+     },
+     {
+      "name": "Others(LIC-Skysign)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Unauthorised construction/development",
+      "count": 4
+     },
+     {
+      "name": "Other (Building Permission)",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Traffic-Planning",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-Planning)",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "type": "Sports",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "other (Sports)",
+      "count": 7
+     },
+     {
+      "name": "Facility in sports ground / complex",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Others (DRN)",
+      "count": 4
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 2
+     },
+     {
+      "name": "Problem regarding sewage treatment plant (HO)",
+      "count": 1
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Others (Water Supply)",
+      "count": 4
+     },
+     {
+      "name": "NO water Supply",
+      "count": 2
+     },
+     {
+      "name": "Low pressure to entire area",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 4
+     },
+     {
+      "name": "Repairing of civil work in Garden",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other (I.T.)",
+      "count": 4
+     },
+     {
+      "name": "CFC related issues",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 2
+     },
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 1
+     },
+     {
+      "name": "PMC Properties related complaints",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Crematorium electrical work(H.O)",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Crematorium electrical work(H.O)",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Ongoing DP process",
+      "count": 2
+     },
+     {
+      "name": "Environmental damage",
+      "count": 1
+     },
+     {
+      "name": "Other (Developement Planning)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "STP(Electrical)",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "STP Electrical work",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Fogging / Mosquito nuisance / Dengue malaria disease",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Mosquito nuisance/Fogging",
+      "count": 1
+     },
+     {
+      "name": "dengu case etc.",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Cultural Department",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (Cultural Department Related)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Heritage Cell (Bhavan HO)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Repairing and maintenance at Heritage places",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Stray Dogs",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Stray Dogs - Unsterilised Dogs",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Mandai",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Mandai)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Health)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Health",
+  "count": 13335,
+  "types": [
+   {
+    "type": "Stray Dogs",
+    "count": 6740,
+    "subcategories": [
+     {
+      "name": "Voilent / Suspected Rabies dogs",
+      "count": 2842
+     },
+     {
+      "name": "Stray Dogs - Unsterilised Dogs",
+      "count": 2187
+     },
+     {
+      "name": "other (Stray Dogs)",
+      "count": 1157
+     },
+     {
+      "name": "Treatment for Injured / Sick Dogs",
+      "count": 554
+     }
+    ]
+   },
+   {
+    "type": "Fogging / Mosquito nuisance / Dengue malaria disease",
+    "count": 3590,
+    "subcategories": [
+     {
+      "name": "Mosquito nuisance/Fogging",
+      "count": 3118
+     },
+     {
+      "name": "dengu case etc.",
+      "count": 302
+     },
+     {
+      "name": "Unauthorised / Uncovered water storage tanks",
+      "count": 96
+     },
+     {
+      "name": "hyacinth at river",
+      "count": 74
+     }
+    ]
+   },
+   {
+    "type": "Stray Animals",
+    "count": 797,
+    "subcategories": [
+     {
+      "name": "Other Animals Nuisance",
+      "count": 346
+     },
+     {
+      "name": "Dog Nuisance",
+      "count": 284
+     },
+     {
+      "name": "Pig Nuisance",
+      "count": 167
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 473,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 473
+     }
+    ]
+   },
+   {
+    "type": "Birth And Death",
+    "count": 346,
+    "subcategories": [
+     {
+      "name": "Birth/Death Certificate not issued",
+      "count": 126
+     },
+     {
+      "name": "Correction in Birth/Death Certificate",
+      "count": 122
+     },
+     {
+      "name": "Others (Birth-Death)",
+      "count": 98
+     }
+    ]
+   },
+   {
+    "type": "PMC Hospitals treatment",
+    "count": 279,
+    "subcategories": [
+     {
+      "name": "Related to PMC Hospital, Treatment and Staff",
+      "count": 217
+     },
+     {
+      "name": "Others (Medical Unit)",
+      "count": 62
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 267,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 119
+     },
+     {
+      "name": "Removal of dead animals",
+      "count": 96
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 14
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 14
+     },
+     {
+      "name": "Garbage not lifted from co-authorised collection point / House gully",
+      "count": 6
+     },
+     {
+      "name": "Burning of Garbage/Plastic waste",
+      "count": 4
+     },
+     {
+      "name": "Lifiting of tree cutting",
+      "count": 2
+     },
+     {
+      "name": "Removal of Debris",
+      "count": 2
+     },
+     {
+      "name": "Public toilet(s) cleaning",
+      "count": 2
+     },
+     {
+      "name": "other (SWM H.O.)",
+      "count": 2
+     },
+     {
+      "name": "No water supply in public toilet(s)",
+      "count": 1
+     },
+     {
+      "name": "Garbage bin overflowing",
+      "count": 1
+     },
+     {
+      "name": "Usage of Plastic bag by shopkeepers",
+      "count": 1
+     },
+     {
+      "name": "Public toilet(s) blockage",
+      "count": 1
+     },
+     {
+      "name": "Garbage vehicle not arrived",
+      "count": 1
+     },
+     {
+      "name": "Providing/Removing/Replacing dustbins",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 165,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 148
+     },
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 16
+     },
+     {
+      "name": "Recruitment related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 132,
+    "subcategories": [
+     {
+      "name": "Pet License",
+      "count": 52
+     },
+     {
+      "name": "Others License (Parwana)",
+      "count": 28
+     },
+     {
+      "name": "Others (Health)",
+      "count": 23
+     },
+     {
+      "name": "Air/Sound Pollution dute to Machinary",
+      "count": 11
+     },
+     {
+      "name": "Unauthorised Lodge, Hotels (Food), Mangal Karyalay, Bakery, Medical Shops, Saloon, Beauty Parlor",
+      "count": 8
+     },
+     {
+      "name": "Unauthorised food selling",
+      "count": 8
+     },
+     {
+      "name": "Odour(Foul smell) from drains",
+      "count": 1
+     },
+     {
+      "name": "Hospital Registration",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Communicable Disease",
+    "count": 92,
+    "subcategories": [
+     {
+      "name": "Diseases like Swine Flu, Dengue, Chikungunya etc",
+      "count": 74
+     },
+     {
+      "name": "Others (Communicable Disease)",
+      "count": 18
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 86,
+    "subcategories": [
+     {
+      "name": "Others (DRN)",
+      "count": 46
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 20
+     },
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 11
+     },
+     {
+      "name": "Stopping leakage of drainage water in Nalla / River",
+      "count": 3
+     },
+     {
+      "name": "Nalla cleanig (H.O)",
+      "count": 2
+     },
+     {
+      "name": "Repairs of pipe sewers/main sewers",
+      "count": 2
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection",
+      "count": 1
+     },
+     {
+      "name": "Stopping chamber overflow (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 67,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 38
+     },
+     {
+      "name": "Clearing Water Logging on Road",
+      "count": 12
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 5
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 3
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 3
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 3
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 1
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 1
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 48,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 48
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 48,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 38
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 9
+     },
+     {
+      "name": "Unauthorised alteration/renovation of building",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized slaughterhouse / crude meat",
+    "count": 42,
+    "subcategories": [
+     {
+      "name": "Illegal Slaughter House",
+      "count": 29
+     },
+     {
+      "name": "Others (Khatik Vibhag)",
+      "count": 12
+     },
+     {
+      "name": "Hygiene of meat",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 35,
+    "subcategories": [
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 14
+     },
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 11
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 6
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 3
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 24,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 16
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 7
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 16,
+    "subcategories": [
+     {
+      "name": "Environmental damage",
+      "count": 11
+     },
+     {
+      "name": "Odour(Foul smell) from Garbage Depot",
+      "count": 2
+     },
+     {
+      "name": "Complaint against DP Road",
+      "count": 2
+     },
+     {
+      "name": "Other (Developement Planning)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Urban Poor Scheme",
+    "count": 14,
+    "subcategories": [
+     {
+      "name": "Regarding Medical Bill",
+      "count": 7
+     },
+     {
+      "name": "Others Urban Poor Scheme",
+      "count": 7
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 6
+     },
+     {
+      "name": "Repairing works of building",
+      "count": 1
+     },
+     {
+      "name": "leakages in bulding",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Making street light functional",
+      "count": 4
+     },
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 2
+     },
+     {
+      "name": "A new street light (new demand)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Contamination / Turbid Water Problem",
+      "count": 2
+     },
+     {
+      "name": "Pipeline/Valve Leakage of PMC line",
+      "count": 2
+     },
+     {
+      "name": "Others (Water Supply)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 6
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "PMC Properties related complaints",
+      "count": 2
+     },
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 2
+     },
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Trimming of branches in government / public place / road",
+      "count": 2
+     },
+     {
+      "name": "Other (Tree Authority)",
+      "count": 2
+     },
+     {
+      "name": "Branch of tree / complete tree cutting",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garbage Depot Complaint",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Burning of Garbage",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Bogus doctor / pregnancy diagnosis / unauthorized sonography center",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Bogus Doctors",
+      "count": 3
+     },
+     {
+      "name": "Others (PCPNDT)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Medicine Supplies",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others (C.M.S.)",
+      "count": 2
+     },
+     {
+      "name": "Medicines and equipments not available",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Immunization",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Related to Vaccination (Polio, Rubella etc)",
+      "count": 2
+     },
+     {
+      "name": "Others (Immunization)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Slum",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (Slum)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Pune Smart City (PSCDCL)",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Aundh, Baner, Balewadi Projects",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (I.T.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "RCH / NUHM",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (RCH / NUHM)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Aids Control",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Aids Control)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Cultural Department",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Cultural Department Related)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "National Programms",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (National Programms)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Contributed Health Scheme",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "River Front development Project",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "River Front development Project",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Electric maintenance work",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Electrical)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Encroachment",
+  "count": 8294,
+  "types": [
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 7661,
+    "subcategories": [
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 4690
+     },
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 1977
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 296
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 203
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 196
+     },
+     {
+      "name": "Vehicles of showroom on road/footpath",
+      "count": 156
+     },
+     {
+      "name": "Illegal religious structures on road/footpath",
+      "count": 82
+     },
+     {
+      "name": "Policy decisions regarding Encroachment department",
+      "count": 36
+     },
+     {
+      "name": "Regarding Illegal religious structures on roads/footpaths in the city",
+      "count": 16
+     },
+     {
+      "name": "Noise Pollution",
+      "count": 9
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 167,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 116
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 48
+     },
+     {
+      "name": "Unauthorised alteration/renovation of building",
+      "count": 2
+     },
+     {
+      "name": "DP plan Demand",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 124,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 95
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 12
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 8
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 4
+     },
+     {
+      "name": "Marking of Parking Line",
+      "count": 3
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 1
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 66,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 52
+     },
+     {
+      "name": "Others(LIC-Skysign)",
+      "count": 4
+     },
+     {
+      "name": "Unathorised name boards on shops",
+      "count": 4
+     },
+     {
+      "name": "All types of payment related issue",
+      "count": 3
+     },
+     {
+      "name": "Workshop or Machinery without License",
+      "count": 2
+     },
+     {
+      "name": "Storage without License",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 46,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 36
+     },
+     {
+      "name": "Burning of Garbage/Plastic waste",
+      "count": 3
+     },
+     {
+      "name": "Removal of Debris",
+      "count": 2
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 2
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 1
+     },
+     {
+      "name": "Usage of Plastic bag by shopkeepers",
+      "count": 1
+     },
+     {
+      "name": "other (SWM H.O.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 33,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 33
+     }
+    ]
+   },
+   {
+    "type": "Mandai",
+    "count": 33,
+    "subcategories": [
+     {
+      "name": "Other (Mandai)",
+      "count": 27
+     },
+     {
+      "name": "Complaint related to Mandai Stall / Gaala",
+      "count": 5
+     },
+     {
+      "name": "Removal of encroachment around PMC Mandai premises",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 28,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 28
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 21,
+    "subcategories": [
+     {
+      "name": "Others License (Parwana)",
+      "count": 13
+     },
+     {
+      "name": "Unauthorised food selling",
+      "count": 3
+     },
+     {
+      "name": "Others (Health)",
+      "count": 2
+     },
+     {
+      "name": "Air/Sound Pollution dute to Machinary",
+      "count": 2
+     },
+     {
+      "name": "Odour(Foul smell) from drains",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Traffic-Planning",
+    "count": 12,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-Planning)",
+      "count": 6
+     },
+     {
+      "name": "Regarding Pay and park on road",
+      "count": 4
+     },
+     {
+      "name": "New P1 P2 zone required",
+      "count": 1
+     },
+     {
+      "name": "Parking policy",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 12,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 12
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 11,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 10
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 3
+     },
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 2
+     },
+     {
+      "name": "Unauthorised construction on PMC plot",
+      "count": 1
+     },
+     {
+      "name": "PMC Properties related complaints",
+      "count": 1
+     },
+     {
+      "name": "Encroachment on PMC Property",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized slaughterhouse / crude meat",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Illegal Slaughter House",
+      "count": 5
+     },
+     {
+      "name": "Others (Khatik Vibhag)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Environmental damage",
+      "count": 4
+     },
+     {
+      "name": "Other (Developement Planning)",
+      "count": 2
+     },
+     {
+      "name": "Complaint against DP Reservation",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Other (GAD)",
+      "count": 2
+     },
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 2
+     },
+     {
+      "name": "Office / Department related Complaint",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 6
+     }
+    ]
+   },
+   {
+    "type": "Pune Smart City (PSCDCL)",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Others - (PSCDCL)",
+      "count": 5
+     },
+     {
+      "name": "Pan City Project",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Others (Water Supply)",
+      "count": 3
+     },
+     {
+      "name": "Unauthorised tapping of water connection/Water Theft",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Heritage Cell (Bhavan HO)",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Removal of Unauthorised vendors/stalls",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Property Tax Assessment / Payment",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Other (Property Tax)",
+      "count": 3
+     },
+     {
+      "name": "Assesment from residential to Non residential(commercial)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "A new street light (new demand)",
+      "count": 2
+     },
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Traffic Signal",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-signal Electrical)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Fogging / Mosquito nuisance / Dengue malaria disease",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Mosquito nuisance/Fogging",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (Tree Authority)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Vehicle department",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Rash Driving of PMC vehicles",
+      "count": 2
+     },
+     {
+      "name": "PMC Vehicle without number plate",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (DRN)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Slum",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (Slum)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Mobile App Issue",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garbage Depot Complaint",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Burning of Garbage",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "TDR",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Complaint against TDR Certificate Verification",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Building Permission",
+  "count": 7952,
+  "types": [
+   {
+    "type": "Building Permission",
+    "count": 5420,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 3049
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 1968
+     },
+     {
+      "name": "Unauthorised alteration/renovation of building",
+      "count": 235
+     },
+     {
+      "name": "Regularisation of plots/ constructions",
+      "count": 48
+     },
+     {
+      "name": "Flat addition and alteration",
+      "count": 37
+     },
+     {
+      "name": "Applied for certified copy but no response",
+      "count": 33
+     },
+     {
+      "name": "DP plan Demand",
+      "count": 26
+     },
+     {
+      "name": "Number of flats in a building",
+      "count": 19
+     },
+     {
+      "name": "Plan submitted but not sanctioned",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 1359,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 538
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 523
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 124
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 51
+     },
+     {
+      "name": "Policy decisions regarding Encroachment department",
+      "count": 48
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 45
+     },
+     {
+      "name": "Illegal religious structures on road/footpath",
+      "count": 19
+     },
+     {
+      "name": "Noise Pollution",
+      "count": 6
+     },
+     {
+      "name": "Vehicles of showroom on road/footpath",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 280,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 280
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 219,
+    "subcategories": [
+     {
+      "name": "Ongoing DP process",
+      "count": 71
+     },
+     {
+      "name": "Environmental damage",
+      "count": 63
+     },
+     {
+      "name": "Other (Developement Planning)",
+      "count": 32
+     },
+     {
+      "name": "Complaint against DP Road",
+      "count": 31
+     },
+     {
+      "name": "Complaint against DP Reservation",
+      "count": 14
+     },
+     {
+      "name": "Delay in plan receiving",
+      "count": 7
+     },
+     {
+      "name": "Odour(Foul smell) from Garbage Depot",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 155,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 155
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 98,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 75
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 5
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 4
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 3
+     },
+     {
+      "name": "Marking of Parking Line",
+      "count": 2
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 2
+     },
+     {
+      "name": "Clearing Water Logging on Road",
+      "count": 2
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 2
+     },
+     {
+      "name": "Stop line at Signal before Zebra Crossing",
+      "count": 1
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 1
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 87,
+    "subcategories": [
+     {
+      "name": "Others License (Parwana)",
+      "count": 55
+     },
+     {
+      "name": "Air/Sound Pollution dute to Machinary",
+      "count": 20
+     },
+     {
+      "name": "Others (Health)",
+      "count": 8
+     },
+     {
+      "name": "Unauthorised Lodge, Hotels (Food), Mangal Karyalay, Bakery, Medical Shops, Saloon, Beauty Parlor",
+      "count": 3
+     },
+     {
+      "name": "Unauthorised food selling",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 81,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 69
+     },
+     {
+      "name": "Workshop or Machinery without License",
+      "count": 6
+     },
+     {
+      "name": "All types of payment related issue",
+      "count": 3
+     },
+     {
+      "name": "Others(LIC-Skysign)",
+      "count": 2
+     },
+     {
+      "name": "Unauthorised storage of explosives",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 39,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 39
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 28,
+    "subcategories": [
+     {
+      "name": "About Stucturl audit",
+      "count": 7
+     },
+     {
+      "name": "Repairing works of building",
+      "count": 6
+     },
+     {
+      "name": "Other",
+      "count": 5
+     },
+     {
+      "name": "leakages in bulding",
+      "count": 5
+     },
+     {
+      "name": "Choke in main drain (HO)",
+      "count": 4
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 25,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 12
+     },
+     {
+      "name": "Removal of Debris",
+      "count": 6
+     },
+     {
+      "name": "Burning of Garbage/Plastic waste",
+      "count": 4
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 2
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 23,
+    "subcategories": [
+     {
+      "name": "Others (DRN)",
+      "count": 17
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 2
+     },
+     {
+      "name": "Problem regarding sewage treatment plant (HO)",
+      "count": 2
+     },
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 1
+     },
+     {
+      "name": "Stopping leakage of drainage water in Nalla / River",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 20,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 13
+     },
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 5
+     },
+     {
+      "name": "Other (GAD)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 16,
+    "subcategories": [
+     {
+      "name": "PMC Properties related complaints",
+      "count": 5
+     },
+     {
+      "name": "Unauthorised construction on PMC plot",
+      "count": 3
+     },
+     {
+      "name": "Encroachment on PMC Property",
+      "count": 3
+     },
+     {
+      "name": "Unauthorised shed on PMC building in premises",
+      "count": 2
+     },
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 2
+     },
+     {
+      "name": "Extension in the pmc property premises without permit",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 16,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 16
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 12,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 12
+     }
+    ]
+   },
+   {
+    "type": "TDR",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "other (TDR Cell)",
+      "count": 6
+     },
+     {
+      "name": "TDR Purchase Application",
+      "count": 2
+     },
+     {
+      "name": "TDR Certificate Verification",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "Others (Water Supply)",
+      "count": 6
+     },
+     {
+      "name": "Unauthorised tapping of water connection/Water Theft",
+      "count": 1
+     },
+     {
+      "name": "Leakage of public toilet water tank",
+      "count": 1
+     },
+     {
+      "name": "Water Flowing / wastage",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-MOBILE TOWER",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Mobile Tower Related",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "type": "Property Tax Assessment / Payment",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Assesment from residential to Non residential(commercial)",
+      "count": 4
+     },
+     {
+      "name": "Other (Property Tax)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized slaughterhouse / crude meat",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Illegal Slaughter House",
+      "count": 6
+     }
+    ]
+   },
+   {
+    "type": "Slum",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Other (Slum)",
+      "count": 6
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other (I.T.)",
+      "count": 2
+     },
+     {
+      "name": "Website /Web Application Related",
+      "count": 2
+     },
+     {
+      "name": "Mobile App Issue",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "AutoDCR",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Complaints against AutoDCR Report",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 2
+     },
+     {
+      "name": "A new street light (new demand)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Pune Smart City (PSCDCL)",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Aundh, Baner, Balewadi Projects",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (Tree Authority)",
+      "count": 1
+     },
+     {
+      "name": "Branch of tree / complete tree cutting",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Communicable Disease",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Communicable Disease)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Lashkar Water Supply",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "NO water Supply",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "RTI Related Complaint",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Urban Poor Scheme",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others Urban Poor Scheme",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Primary Education",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Primary Education)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-TAT(Title Transfer)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Title transfer",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "BSUP project",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "BSUP project",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Tree Authority",
+  "count": 7305,
+  "types": [
+   {
+    "type": "Tree Authority",
+    "count": 6261,
+    "subcategories": [
+     {
+      "name": "Branch of tree / complete tree cutting",
+      "count": 2682
+     },
+     {
+      "name": "Other (Tree Authority)",
+      "count": 1073
+     },
+     {
+      "name": "Fallen tree on road",
+      "count": 808
+     },
+     {
+      "name": "Trimming of branches in Roadside trees",
+      "count": 635
+     },
+     {
+      "name": "Trimming of branches in government / public place / road",
+      "count": 472
+     },
+     {
+      "name": "Illegal Cutting of tree",
+      "count": 393
+     },
+     {
+      "name": "Permission to Trim Branches in private Society / Land",
+      "count": 198
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 464,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 351
+     },
+     {
+      "name": "Planting of trees besides divider/foothpath (HO)",
+      "count": 79
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 21
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 13
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 293,
+    "subcategories": [
+     {
+      "name": "Lifiting of tree cutting",
+      "count": 153
+     },
+     {
+      "name": "Others (SWM )",
+      "count": 103
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 13
+     },
+     {
+      "name": "Garbage not lifted from co-authorised collection point / House gully",
+      "count": 7
+     },
+     {
+      "name": "Removal of Debris",
+      "count": 6
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 4
+     },
+     {
+      "name": "Garbage vehicle not arrived",
+      "count": 3
+     },
+     {
+      "name": "other (SWM H.O.)",
+      "count": 2
+     },
+     {
+      "name": "Burning of Garbage/Plastic waste",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 66,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 41
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 9
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 6
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 3
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 3
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 2
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 1
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 55,
+    "subcategories": [
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 30
+     },
+     {
+      "name": "Making street light functional",
+      "count": 15
+     },
+     {
+      "name": "Repairing street light pole (damaged / fallen)",
+      "count": 5
+     },
+     {
+      "name": "Others Electric H.O",
+      "count": 2
+     },
+     {
+      "name": "A new street light (new demand)",
+      "count": 2
+     },
+     {
+      "name": "Preventing electrocution / shock",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 35,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 35
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 18,
+    "subcategories": [
+     {
+      "name": "Stopping leakage of drainage water in Nalla / River (HO)",
+      "count": 14
+     },
+     {
+      "name": "Nalla cleanig (H.O)",
+      "count": 1
+     },
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 1
+     },
+     {
+      "name": "Replacement of missing/damaged manholes/inspection",
+      "count": 1
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 16,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 6
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 5
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 2
+     },
+     {
+      "name": "Regarding Illegal religious structures on roads/footpaths in the city",
+      "count": 1
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 1
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 13,
+    "subcategories": [
+     {
+      "name": "Short supply of water (HO)",
+      "count": 8
+     },
+     {
+      "name": "Other",
+      "count": 3
+     },
+     {
+      "name": "Overflow of waste material (HO)",
+      "count": 1
+     },
+     {
+      "name": "About Compondwall and gate reparing",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 13,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 11
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 13,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 10
+     },
+     {
+      "name": "Repairing of civil work in Garden",
+      "count": 2
+     },
+     {
+      "name": "Repairing of playing equipments in garden",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Electric maintenance work",
+    "count": 12,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Electrical)",
+      "count": 7
+     },
+     {
+      "name": "Repairing of Lights / Halogen in Garden",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 9
+     }
+    ]
+   },
+   {
+    "type": "Stray Animals",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other Animals Nuisance",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Fogging / Mosquito nuisance / Dengue malaria disease",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Mosquito nuisance/Fogging",
+      "count": 3
+     },
+     {
+      "name": "dengu case etc.",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Odour(Foul smell) from Garbage Depot",
+      "count": 2
+     },
+     {
+      "name": "Environmental damage",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Traffic Signal",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-signal Electrical)",
+      "count": 2
+     },
+     {
+      "name": "Repairing and maintenance of Signal",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Sports",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "other (Sports)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Water Flowing / wastage",
+      "count": 1
+     },
+     {
+      "name": "Others (Water Supply)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bridge / Overbridge / Subway / pedestrian",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Repair and maintenance of Bridge ,Sub-ways & Pedestrian",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Electrical(H.O)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Electrical(H.O)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "RCH / NUHM",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (RCH / NUHM)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Encroachment on PMC Property",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "License-Skysign",
+  "count": 4285,
+  "types": [
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 3641,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 3289
+     },
+     {
+      "name": "Others(LIC-Skysign)",
+      "count": 277
+     },
+     {
+      "name": "Unathorised name boards on shops",
+      "count": 32
+     },
+     {
+      "name": "other(License_Skysign (HO))",
+      "count": 27
+     },
+     {
+      "name": "Unauthorised storage of explosives",
+      "count": 8
+     },
+     {
+      "name": "All types of payment related issue",
+      "count": 4
+     },
+     {
+      "name": "Workshop or Machinery without License",
+      "count": 3
+     },
+     {
+      "name": "Storage without License",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 206,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 81
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 56
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 38
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 18
+     },
+     {
+      "name": "Illegal religious structures on road/footpath",
+      "count": 8
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 4
+     },
+     {
+      "name": "Noise Pollution",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 204,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 204
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 111,
+    "subcategories": [
+     {
+      "name": "Others License (Parwana)",
+      "count": 55
+     },
+     {
+      "name": "Others (Health)",
+      "count": 25
+     },
+     {
+      "name": "Air/Sound Pollution dute to Machinary",
+      "count": 25
+     },
+     {
+      "name": "Unauthorised Lodge, Hotels (Food), Mangal Karyalay, Bakery, Medical Shops, Saloon, Beauty Parlor",
+      "count": 4
+     },
+     {
+      "name": "Unauthorised flour mill",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 30,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 19
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 3
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 3
+     },
+     {
+      "name": "Marking of Parking Line",
+      "count": 1
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 1
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 1
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 1
+     },
+     {
+      "name": "Repairing / Beautification of Chowk (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 14,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 14
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 14,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 14
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 11,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 11
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 10
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 8
+     },
+     {
+      "name": "Burning of Garbage/Plastic waste",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 5
+     },
+     {
+      "name": "Making street light functional",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "TDR",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Complaint against TDR Certificate Verification",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 3
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 2
+     },
+     {
+      "name": "Office / Department related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (Tree Authority)",
+      "count": 1
+     },
+     {
+      "name": "Trimming of branches in government / public place / road",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Communicable Disease",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Communicable Disease)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Traffic Signal",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-signal Electrical)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-MOBILE TOWER",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Mobile Tower Related",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (I.T.)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Environmental damage",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Property Tax",
+  "count": 2207,
+  "types": [
+   {
+    "type": "Property Tax Assessment / Payment",
+    "count": 1573,
+    "subcategories": [
+     {
+      "name": "40% discount on the residential taxable value",
+      "count": 504
+     },
+     {
+      "name": "Other (Property Tax)",
+      "count": 378
+     },
+     {
+      "name": "Correction in outstanding Propert Tax",
+      "count": 237
+     },
+     {
+      "name": "Property Tax bill not received",
+      "count": 137
+     },
+     {
+      "name": "Correction of Name on Property tax bill",
+      "count": 71
+     },
+     {
+      "name": "Correction of Property Area",
+      "count": 36
+     },
+     {
+      "name": "Nullfying Property tax Bill regarding Double Bill / Reconstructive Property / Demolished Property",
+      "count": 34
+     },
+     {
+      "name": "Assesment from residential to Non residential(commercial)",
+      "count": 30
+     },
+     {
+      "name": "Address correction",
+      "count": 23
+     },
+     {
+      "name": "Assesment from Non residential(commercial) to residential",
+      "count": 18
+     },
+     {
+      "name": "Receipt of Assesment Register",
+      "count": 16
+     },
+     {
+      "name": "Abhay Yojana",
+      "count": 14
+     },
+     {
+      "name": "SELF ASSESSMENT",
+      "count": 13
+     },
+     {
+      "name": "Assesment according to commencement",
+      "count": 11
+     },
+     {
+      "name": "Removal of water tax due to installation of water meter",
+      "count": 11
+     },
+     {
+      "name": "Triple Tax cancellation",
+      "count": 9
+     },
+     {
+      "name": "Separation of Bill",
+      "count": 9
+     },
+     {
+      "name": "Finalising of Property tax amount according to Court order and refunding the remaining",
+      "count": 8
+     },
+     {
+      "name": "Recording of Water tax according to residential & non residential in property tax",
+      "count": 6
+     },
+     {
+      "name": "Correction in ARV due to change in use of property",
+      "count": 4
+     },
+     {
+      "name": "Assessment of Additional construction",
+      "count": 3
+     },
+     {
+      "name": "Deletion of one name from two names on property tax bill",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-TAT(Title Transfer)",
+    "count": 301,
+    "subcategories": [
+     {
+      "name": "Title transfer",
+      "count": 274
+     },
+     {
+      "name": "Correction in name according to official gazette",
+      "count": 22
+     },
+     {
+      "name": "Property Tax NOC Related",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "AutoDCR",
+    "count": 85,
+    "subcategories": [
+     {
+      "name": "Complaints against AutoDCR Report",
+      "count": 72
+     },
+     {
+      "name": "Other (City Engineer)",
+      "count": 13
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-COMPUTER SECTION",
+    "count": 64,
+    "subcategories": [
+     {
+      "name": "Online Payment Related",
+      "count": 40
+     },
+     {
+      "name": "Property Tax Website issue",
+      "count": 24
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-SOLAR VERMI & RAINWATER HARVESTING (SVR)",
+    "count": 32,
+    "subcategories": [
+     {
+      "name": "Solar, Vermiculture, Rainwater harvesting discount",
+      "count": 32
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 26,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 26
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 20,
+    "subcategories": [
+     {
+      "name": "A new street light (new demand)",
+      "count": 20
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 19,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 19
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 18,
+    "subcategories": [
+     {
+      "name": "NO water Supply",
+      "count": 12
+     },
+     {
+      "name": "Others (Water Supply)",
+      "count": 4
+     },
+     {
+      "name": "Unauthorised tapping of water connection/Water Theft",
+      "count": 1
+     },
+     {
+      "name": "Correction in water meter bill (Name/Address/Amount etc)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 16,
+    "subcategories": [
+     {
+      "name": "Other (I.T.)",
+      "count": 6
+     },
+     {
+      "name": "Website /Web Application Related",
+      "count": 5
+     },
+     {
+      "name": "Mobile App Issue",
+      "count": 4
+     },
+     {
+      "name": "CFC related issues",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 13,
+    "subcategories": [
+     {
+      "name": "Unauthorised construction/development",
+      "count": 6
+     },
+     {
+      "name": "Other (Building Permission)",
+      "count": 6
+     },
+     {
+      "name": "Unauthorised alteration/renovation of building",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "PMC Properties related complaints",
+      "count": 4
+     },
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 3
+     },
+     {
+      "name": "Transfer of tenancy",
+      "count": 1
+     },
+     {
+      "name": "Unauthorised construction on PMC plot",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Others License (Parwana)",
+      "count": 7
+     },
+     {
+      "name": "Unauthorised Lodge, Hotels (Food), Mangal Karyalay, Bakery, Medical Shops, Saloon, Beauty Parlor",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-MOBILE TOWER",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Mobile Tower Related",
+      "count": 7
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 3
+     },
+     {
+      "name": "Other (GAD)",
+      "count": 2
+     },
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (DRN)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "RCH / NUHM",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (RCH / NUHM)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Garden",
+  "count": 1161,
+  "types": [
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 646,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 427
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 144
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 61
+     },
+     {
+      "name": "Planting of trees besides divider/foothpath (HO)",
+      "count": 14
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 313,
+    "subcategories": [
+     {
+      "name": "Repairing of playing equipments in garden",
+      "count": 159
+     },
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 94
+     },
+     {
+      "name": "Repairing of civil work in Garden",
+      "count": 42
+     },
+     {
+      "name": "Repairing of Jogging Track in garden",
+      "count": 18
+     }
+    ]
+   },
+   {
+    "type": "Garden Electric maintenance work",
+    "count": 120,
+    "subcategories": [
+     {
+      "name": "Repairing of Lights / Halogen in Garden",
+      "count": 75
+     },
+     {
+      "name": "Others (Garden-Electrical)",
+      "count": 45
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 13,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 7
+     },
+     {
+      "name": "Public toilet(s) cleaning",
+      "count": 2
+     },
+     {
+      "name": "No water supply in public toilet(s)",
+      "count": 2
+     },
+     {
+      "name": "Public toilet(s) blockage",
+      "count": 1
+     },
+     {
+      "name": "Garbage not lifted from co-authorised collection point / House gully",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 9
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "Making street light functional",
+      "count": 8
+     },
+     {
+      "name": "Public Toilets water motor not working",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Others (Water Supply)",
+      "count": 2
+     },
+     {
+      "name": "Water Flowing / wastage",
+      "count": 2
+     },
+     {
+      "name": "Leakage of public toilet water tank",
+      "count": 1
+     },
+     {
+      "name": "Pipeline/Valve Leakage of PMC line",
+      "count": 1
+     },
+     {
+      "name": "NO water Supply",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Branch of tree / complete tree cutting",
+      "count": 3
+     },
+     {
+      "name": "Other (Tree Authority)",
+      "count": 2
+     },
+     {
+      "name": "Trimming of branches in Roadside trees",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 4
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "PMC Properties related complaints",
+      "count": 3
+     },
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Sports",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "other (Sports)",
+      "count": 3
+     },
+     {
+      "name": "Availability of sports ground / complex",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Ongoing DP process",
+      "count": 1
+     },
+     {
+      "name": "Other (Developement Planning)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Stray Animals",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other Animals Nuisance",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Urban Poor Scheme",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others Urban Poor Scheme",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Traffic Signal",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Repairing and maintenance of Signal",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Cultural Department",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Cultural Department Related)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Chief Engineer Project",
+  "count": 1003,
+  "types": [
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 289,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 152
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 55
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 48
+     },
+     {
+      "name": "Clearing Water Logging on Road",
+      "count": 6
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 6
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 6
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 5
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 4
+     },
+     {
+      "name": "Lifiting of debris on road and footpath (HO)",
+      "count": 3
+     },
+     {
+      "name": "Painting of Footpath / Divider / Beautification of Chowk etc",
+      "count": 2
+     },
+     {
+      "name": "Raising of manhole(except in monsoon)",
+      "count": 1
+     },
+     {
+      "name": "Marking of Parking Line (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bridge / Overbridge / Subway / pedestrian",
+    "count": 270,
+    "subcategories": [
+     {
+      "name": "Repair and maintenance of Bridge ,Sub-ways & Pedestrian",
+      "count": 192
+     },
+     {
+      "name": "Development of Bridge , Sub-ways & Pedestrian",
+      "count": 78
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 199,
+    "subcategories": [
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 161
+     },
+     {
+      "name": "PMC Properties related complaints",
+      "count": 30
+     },
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "type": "Traffic-Planning",
+    "count": 169,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-Planning)",
+      "count": 85
+     },
+     {
+      "name": "Regarding Pay and park on road",
+      "count": 37
+     },
+     {
+      "name": "Parking policy",
+      "count": 25
+     },
+     {
+      "name": "New P1 P2 zone required",
+      "count": 13
+     },
+     {
+      "name": "Development of parking reservations",
+      "count": 6
+     },
+     {
+      "name": "Require name for road and chowk",
+      "count": 2
+     },
+     {
+      "name": "Regarding Mechanical Car parking",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 10
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Other (Developement Planning)",
+      "count": 3
+     },
+     {
+      "name": "Environmental damage",
+      "count": 2
+     },
+     {
+      "name": "Delay in plan receiving",
+      "count": 2
+     },
+     {
+      "name": "Complaint against DP Road",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 5
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 1
+     },
+     {
+      "name": "Policy decisions regarding Encroachment department",
+      "count": 1
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Others (DRN)",
+      "count": 4
+     },
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 2
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 1
+     },
+     {
+      "name": "Others (JICA Project) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 7
+     }
+    ]
+   },
+   {
+    "type": "River Front development Project",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "River Front development Project",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 3
+     },
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 2
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 2
+     },
+     {
+      "name": "Found encroachment in the school premise (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Water Supply)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others License (Parwana)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 1
+     },
+     {
+      "name": "Office / Department related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Branch of tree / complete tree cutting",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "RCH / NUHM",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (RCH / NUHM)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bicycle Plan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Bicycle Plan",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Traffic Signal",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-signal Electrical)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Urban Poor Scheme",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others Urban Poor Scheme",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "CFC related issues",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Repairing of playing equipments in garden",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "General Administration / Establishment",
+  "count": 528,
+  "types": [
+   {
+    "type": "General Administration",
+    "count": 528,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 341
+     },
+     {
+      "name": "Recruitment related Complaint",
+      "count": 121
+     },
+     {
+      "name": "Other (GAD)",
+      "count": 40
+     },
+     {
+      "name": "Officer/Employee related Complaint",
+      "count": 26
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Bhavan Rachana",
+  "count": 479,
+  "types": [
+   {
+    "type": "Bhavan",
+    "count": 433,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 384
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 16
+     },
+     {
+      "name": "Repairing works of building",
+      "count": 6
+     },
+     {
+      "name": "About Compondwall and gate reparing",
+      "count": 5
+     },
+     {
+      "name": "Water pipe leakage in building premises",
+      "count": 4
+     },
+     {
+      "name": "Choke in main drain (HO)",
+      "count": 3
+     },
+     {
+      "name": "Others (Bhavan H.O.)",
+      "count": 2
+     },
+     {
+      "name": "Drinking water not available",
+      "count": 2
+     },
+     {
+      "name": "leakages in bulding",
+      "count": 2
+     },
+     {
+      "name": "Furniture found broken in the classes. (HO)",
+      "count": 2
+     },
+     {
+      "name": "Water clogging in building premises",
+      "count": 2
+     },
+     {
+      "name": "Toilet not cleaned",
+      "count": 1
+     },
+     {
+      "name": "Overflow of waste material",
+      "count": 1
+     },
+     {
+      "name": "PMC building construction issues (HO)",
+      "count": 1
+     },
+     {
+      "name": "About Stucturl audit",
+      "count": 1
+     },
+     {
+      "name": "Repairing works related to statues",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 21,
+    "subcategories": [
+     {
+      "name": "Repairing of playing equipments in garden",
+      "count": 10
+     },
+     {
+      "name": "Repairing of civil work in Garden",
+      "count": 5
+     },
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 4
+     },
+     {
+      "name": "Repairing of Jogging Track in garden",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 10
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Environmental damage",
+      "count": 1
+     },
+     {
+      "name": "Ongoing DP process",
+      "count": 1
+     },
+     {
+      "name": "Other (Developement Planning)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Tree Authority",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Branch of tree / complete tree cutting",
+      "count": 1
+     },
+     {
+      "name": "Other (Tree Authority)",
+      "count": 1
+     },
+     {
+      "name": "Trimming of branches in government / public place / road",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garbage Depot Complaint",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Burning of Garbage",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Electric maintenance work",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Electrical)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Making street light functional",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Environment",
+  "count": 425,
+  "types": [
+   {
+    "type": "Environment (H.O)",
+    "count": 165,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 84
+     },
+     {
+      "name": "Water Hyacinth removal",
+      "count": 81
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 96,
+    "subcategories": [
+     {
+      "name": "Air/Sound Pollution dute to Machinary",
+      "count": 39
+     },
+     {
+      "name": "Others License (Parwana)",
+      "count": 33
+     },
+     {
+      "name": "Others (Health)",
+      "count": 22
+     },
+     {
+      "name": "Unauthorised flour mill",
+      "count": 1
+     },
+     {
+      "name": "Unauthorised Lodge, Hotels (Food), Mangal Karyalay, Bakery, Medical Shops, Saloon, Beauty Parlor",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 64,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 64
+     }
+    ]
+   },
+   {
+    "type": "Fogging / Mosquito nuisance / Dengue malaria disease",
+    "count": 41,
+    "subcategories": [
+     {
+      "name": "hyacinth at river",
+      "count": 24
+     },
+     {
+      "name": "Mosquito nuisance/Fogging",
+      "count": 17
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 10,
+    "subcategories": [
+     {
+      "name": "Others (DRN)",
+      "count": 6
+     },
+     {
+      "name": "Nalla cleanig (H.O)",
+      "count": 2
+     },
+     {
+      "name": "Cleaning of strom water chamber and nalla",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 6
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 6
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 3
+     },
+     {
+      "name": "Short supply of water (HO)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 2
+     },
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 1
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Noise Pollution",
+      "count": 1
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 1
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 1
+     },
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 3
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Communicable Disease",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Communicable Disease)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Environmental damage",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Cultural Department",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Auditorium related complaints",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (I.T.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Water Supply",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Water Flowing / wastage",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Urban Poor Scheme",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others Urban Poor Scheme",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Traffic Signal",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-signal Electrical)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Pune Smart City (PSCDCL)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others - (PSCDCL)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Information Technology",
+  "count": 392,
+  "types": [
+   {
+    "type": "Information Technology",
+    "count": 342,
+    "subcategories": [
+     {
+      "name": "Mobile App Issue",
+      "count": 173
+     },
+     {
+      "name": "Website /Web Application Related",
+      "count": 83
+     },
+     {
+      "name": "Other (I.T.)",
+      "count": 59
+     },
+     {
+      "name": "CFC related issues",
+      "count": 27
+     }
+    ]
+   },
+   {
+    "type": "Marriage Registration",
+    "count": 23,
+    "subcategories": [
+     {
+      "name": "Other (Marriage Registration)",
+      "count": 23
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 9,
+    "subcategories": [
+     {
+      "name": "Pet License",
+      "count": 8
+     },
+     {
+      "name": "Unauthorised Lodge, Hotels (Food), Mangal Karyalay, Bakery, Medical Shops, Saloon, Beauty Parlor",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-TAT(Title Transfer)",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Title transfer",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (GAD)",
+      "count": 2
+     },
+     {
+      "name": "Office / Department related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Information Technology-Employee",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Computer / Printer / Scanner Deemand",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Environmental damage",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Electric maintenance work",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Electrical)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Estate and Management",
+  "count": 215,
+  "types": [
+   {
+    "type": "PMC Properties",
+    "count": 88,
+    "subcategories": [
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 31
+     },
+     {
+      "name": "PMC Properties related complaints",
+      "count": 25
+     },
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 11
+     },
+     {
+      "name": "Encroachment on PMC Property",
+      "count": 6
+     },
+     {
+      "name": "Unauthorised use of room",
+      "count": 3
+     },
+     {
+      "name": "Non-maintenance of premises",
+      "count": 3
+     },
+     {
+      "name": "Extension in the pmc property premises without permit",
+      "count": 2
+     },
+     {
+      "name": "Swimming Pool/Gym/Bandminton Hall/Tennis Court etc. Sports complex Related complaint",
+      "count": 2
+     },
+     {
+      "name": "Unauthorised shed on PMC building in premises",
+      "count": 2
+     },
+     {
+      "name": "Transfer of tenancy",
+      "count": 1
+     },
+     {
+      "name": "Lease Aggrement period over of PMC owned properties",
+      "count": 1
+     },
+     {
+      "name": "Unauthorised materials/Furniture found",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 44,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 22
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 12
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 8
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 1
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 22,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 11
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 5
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 4
+     },
+     {
+      "name": "Illegal religious structures on road/footpath",
+      "count": 1
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 21,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 21
+     }
+    ]
+   },
+   {
+    "type": "Sports",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "other (Sports)",
+      "count": 5
+     },
+     {
+      "name": "Sports Ground Cleaning",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 4
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 2
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Complaint against DP Road",
+      "count": 2
+     },
+     {
+      "name": "Other (Developement Planning)",
+      "count": 2
+     },
+     {
+      "name": "Complaint against DP Reservation",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 2
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Social Development Schemes",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (SDD)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Property Tax-TAT(Title Transfer)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Title transfer",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Market",
+  "count": 182,
+  "types": [
+   {
+    "type": "Stray Animals",
+    "count": 110,
+    "subcategories": [
+     {
+      "name": "Other Animals Nuisance",
+      "count": 110
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 23,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 11
+     },
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 4
+     },
+     {
+      "name": "Public toilet(s) cleaning",
+      "count": 3
+     },
+     {
+      "name": "Huge littering in open plot / Garbage Dump",
+      "count": 2
+     },
+     {
+      "name": "Garbage not lifted from co-authorised collection point / House gully",
+      "count": 1
+     },
+     {
+      "name": "No water supply in public toilet(s)",
+      "count": 1
+     },
+     {
+      "name": "Removal of dead animals",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 21,
+    "subcategories": [
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 10
+     },
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 6
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 13,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 13
+     }
+    ]
+   },
+   {
+    "type": "Mandai",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Other (Mandai)",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Replacement of missing/damaged manholes/inspection",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Odour(Foul smell) from Garbage Depot",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Primary Education",
+  "count": 145,
+  "types": [
+   {
+    "type": "Primary Education",
+    "count": 107,
+    "subcategories": [
+     {
+      "name": "Related to PMC / Private Schools",
+      "count": 72
+     },
+     {
+      "name": "Others (Primary Education)",
+      "count": 31
+     },
+     {
+      "name": "Official Complaints",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 17,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 17
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 3
+     },
+     {
+      "name": "Repairing works of building",
+      "count": 1
+     },
+     {
+      "name": "Others (Bhavan H.O.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Sports",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "other (Sports)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Repairing of playing equipments in garden",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Secondary and Technical Education",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Secondary Education)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "PMC Hospitals treatment",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Related to PMC Hospital, Treatment and Staff",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Electric maintenance work",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Electrical)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (E & M H.O.)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Office / Department related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others License (Parwana)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Vehicle Depot",
+  "count": 115,
+  "types": [
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 45,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 16
+     },
+     {
+      "name": "Vehicles of showroom on road/footpath",
+      "count": 11
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 8
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 4
+     },
+     {
+      "name": "Shopkeeper’s material on road/footpath",
+      "count": 3
+     },
+     {
+      "name": "Illegal religious structures on road/footpath",
+      "count": 1
+     },
+     {
+      "name": "Noise Pollution",
+      "count": 1
+     },
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Vehicle department",
+    "count": 21,
+    "subcategories": [
+     {
+      "name": "Rash Driving of PMC vehicles",
+      "count": 11
+     },
+     {
+      "name": "PMC Vehicle without number plate",
+      "count": 6
+     },
+     {
+      "name": "Pollution due to PMC vehicle",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 15,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 10
+     },
+     {
+      "name": "Marking of Parking Line",
+      "count": 2
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 1
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 1
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 6
+     },
+     {
+      "name": "other (SWM H.O.)",
+      "count": 1
+     },
+     {
+      "name": "Garbage lorry not covered",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 6,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 4
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 1
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 2
+     },
+     {
+      "name": "Unauthorised construction/development",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized hoardigs banners / advertisements on roads / footpath / buildings / directions panels",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Unauthorised Banners/advertisement/Boards on roads/Footpath/Buildings/Gantry",
+      "count": 2
+     },
+     {
+      "name": "Workshop or Machinery without License",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bridge / Overbridge / Subway / pedestrian",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Repair and maintenance of Bridge ,Sub-ways & Pedestrian",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Unauthorized banners / advertisements / Permit / license in Pune City",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Unauthorized banners / advertisements / Permit / license in Pune City",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Traffic-Planning",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-Planning)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Developement Planning)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "PMC Security",
+  "count": 113,
+  "types": [
+   {
+    "type": "PMC Security Complaints",
+    "count": 58,
+    "subcategories": [
+     {
+      "name": "Irresponsible behaviour of Security Guard",
+      "count": 36
+     },
+     {
+      "name": "Deemand of Security Guard",
+      "count": 22
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 18,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 18
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 16,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 16
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Short supply of water (HO)",
+      "count": 3
+     },
+     {
+      "name": "Other",
+      "count": 1
+     },
+     {
+      "name": "Overflow of waste material (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 2
+     },
+     {
+      "name": "Repairing of Jogging Track in garden",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Public Health Related",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Health H.O.)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 1
+     },
+     {
+      "name": "PMC Properties related complaints",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Developement Planning)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Cultural Department",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Cultural Department Related)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Traffic-Planning",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Traffic-Planning)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Hospitals treatment",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Related to PMC Hospital, Treatment and Staff",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Sports",
+  "count": 99,
+  "types": [
+   {
+    "type": "Sports",
+    "count": 67,
+    "subcategories": [
+     {
+      "name": "other (Sports)",
+      "count": 54
+     },
+     {
+      "name": "Sports Ground Cleaning",
+      "count": 6
+     },
+     {
+      "name": "Availability of sports ground / complex",
+      "count": 4
+     },
+     {
+      "name": "Facility in sports ground / complex",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 12,
+    "subcategories": [
+     {
+      "name": "Swimming Pool/Gym/Bandminton Hall/Tennis Court etc. Sports complex Related complaint",
+      "count": 12
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 2
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 1
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 3
+     },
+     {
+      "name": "Water pipe leakage in building premises",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Illegal pandals/arches etc. on road/footpath",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "CFC related issues",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (SWM )",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "License (Parwana)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Health)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Social Development Schemes",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (SDD)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "General Administration",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (GAD)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Cultural Department",
+  "count": 61,
+  "types": [
+   {
+    "type": "Cultural Department",
+    "count": 49,
+    "subcategories": [
+     {
+      "name": "Other (Cultural Department Related)",
+      "count": 27
+     },
+     {
+      "name": "Auditorium related complaints",
+      "count": 22
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "PMC Parking Related Complaint",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 1
+     },
+     {
+      "name": "Others (Bhavan H.O.)",
+      "count": 1
+     },
+     {
+      "name": "Repairing works of building",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Public toilet(s) cleaning",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Heritage Cell (Bhavan HO)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Repairing and maintenance at Heritage places",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Mandai",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Complaint related to Mandai Stall / Gaala",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Environmental damage",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Social Development",
+  "count": 55,
+  "types": [
+   {
+    "type": "Encroachments on public premises / roads",
+    "count": 22,
+    "subcategories": [
+     {
+      "name": "Others (Encroachment W.O.)",
+      "count": 12
+     },
+     {
+      "name": "Removal of illegal hawkers / stall / hut / workshop / garage structure on footpath/roads",
+      "count": 8
+     },
+     {
+      "name": "Other (Encroachment H.O.)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Social Development Schemes",
+    "count": 20,
+    "subcategories": [
+     {
+      "name": "Others (SDD)",
+      "count": 10
+     },
+     {
+      "name": "Online Form Related Queries",
+      "count": 7
+     },
+     {
+      "name": "Regarding various schemes",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 5
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 4,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 4
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 1
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Primary Education",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others (Primary Education)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Pune Smart City (PSCDCL)",
+  "count": 51,
+  "types": [
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 14,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 8
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 2
+     },
+     {
+      "name": "Repairing pothole around manhole",
+      "count": 2
+     },
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 1
+     },
+     {
+      "name": "Lifiting of debris on road and footpath",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 14,
+    "subcategories": [
+     {
+      "name": "Others (Garden) (HO)",
+      "count": 7
+     },
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 5
+     },
+     {
+      "name": "Planting of trees besides divider/foothpath (HO)",
+      "count": 1
+     },
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Pune Smart City (PSCDCL)",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Others - (PSCDCL)",
+      "count": 3
+     },
+     {
+      "name": "Aundh, Baner, Balewadi Projects",
+      "count": 3
+     },
+     {
+      "name": "Wi-Fi related",
+      "count": 1
+     },
+     {
+      "name": "Pan City Project",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Drainage",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Providing / repairing of storm water chamber and cover",
+      "count": 2
+     },
+     {
+      "name": "Cleaning / Overflowing choked drains or manholes",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Electric maintenance work",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Repairing of Lights / Halogen in Garden",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Street Lights",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (ELECTRICAL)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Garden Civil maintenance work",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others (Garden-Civil)",
+      "count": 1
+     },
+     {
+      "name": "Repairing of playing equipments in garden",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Bridge / Overbridge / Subway / pedestrian",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Development of Bridge , Sub-ways & Pedestrian",
+      "count": 1
+     },
+     {
+      "name": "Repair and maintenance of Bridge ,Sub-ways & Pedestrian",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Information Technology",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (I.T.)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Labour Office",
+  "count": 37,
+  "types": [
+   {
+    "type": "RTI Related Complaint",
+    "count": 35,
+    "subcategories": [
+     {
+      "name": "Others",
+      "count": 34
+     },
+     {
+      "name": "Complaint realted to dues with PMC",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Crematorium electrical work(H.O)",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Crematorium electrical work(H.O)",
+      "count": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Unassigned",
+  "count": 30,
+  "types": [
+   {
+    "type": "Marriage Registration",
+    "count": 25,
+    "subcategories": [
+     {
+      "name": "Marriage Certificate not received in time.",
+      "count": 17
+     },
+     {
+      "name": "Correction in Marriage Certificate",
+      "count": 8
+     }
+    ]
+   },
+   {
+    "type": "TDR",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Complaint against TDR/ Not received",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Pension Complaints",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Delay in Pension processing",
+      "count": 1
+     },
+     {
+      "name": "Others",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Pradhan Mantri Awas Yojana (PMAY)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Complaint Regarding In-Situ",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Heritage Cell",
+  "count": 26,
+  "types": [
+   {
+    "type": "Heritage Cell (Bhavan HO)",
+    "count": 19,
+    "subcategories": [
+     {
+      "name": "Cleanliness at Heritage places",
+      "count": 17
+     },
+     {
+      "name": "Repairing and maintenance at Heritage places",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Cultural Department",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Other (Cultural Department Related)",
+      "count": 3
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 1
+     },
+     {
+      "name": "Making/Repairing/Removal Speedbreaker",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Maintenance of Garden (Horticulture Related) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Building Permission",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (Building Permission)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Secondary & Technical Education",
+  "count": 22,
+  "types": [
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 7,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 7
+     }
+    ]
+   },
+   {
+    "type": "Secondary and Technical Education",
+    "count": 5,
+    "subcategories": [
+     {
+      "name": "Others (Secondary Education)",
+      "count": 4
+     },
+     {
+      "name": "Direct Benefit Transfer (DBT) - Others",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 2
+     },
+     {
+      "name": "Repairing potholes on Road",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Garden Cleaning & maintenance",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Cleaning of Garden (HO)",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Bhavan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road Sweeping / Toilet Cleaning / Garbage disposal",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Sweeping /cleaning the road",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Sports",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "other (Sports)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Other",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Primary Education",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Related to PMC / Private Schools",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Slum",
+  "count": 19,
+  "types": [
+   {
+    "type": "Slum",
+    "count": 19,
+    "subcategories": [
+     {
+      "name": "Other (Slum)",
+      "count": 19
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Land Acquisition",
+  "count": 17,
+  "types": [
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 11,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 6
+     },
+     {
+      "name": "Others (Road Project(H.O))",
+      "count": 3
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 2
+     }
+    ]
+   },
+   {
+    "type": "Land Acquisition",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Complaint Related to Land Acquisition",
+      "count": 2
+     },
+     {
+      "name": "Other (Land Acquisition)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "City Development Plan",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Complaint against DP Road",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "PMC Properties",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "PMC Properties related complaints",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Abhyagat Kaksha",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Abhyagat Kaksha",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "JICA Project",
+  "count": 12,
+  "types": [
+   {
+    "type": "Drainage",
+    "count": 8,
+    "subcategories": [
+     {
+      "name": "Others (DRN)",
+      "count": 6
+     },
+     {
+      "name": "Stopping leakage of drainage water in Nalla / River",
+      "count": 1
+     },
+     {
+      "name": "Others (JICA Project) (HO)",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Road, pavement, divider, pits, repair / new speed breaker / zebra crossing",
+    "count": 3,
+    "subcategories": [
+     {
+      "name": "Others road",
+      "count": 2
+     },
+     {
+      "name": "Repair/re-sufacing of roads/footpaths",
+      "count": 1
+     }
+    ]
+   },
+   {
+    "type": "Environment (H.O)",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Other (ENV)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Pradhanmantri Awas Yojana (PMAY)",
+  "count": 2,
+  "types": [
+   {
+    "type": "Pradhan Mantri Awas Yojana (PMAY)",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Other (Pradhan Mantri Awas Yojana)",
+      "count": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Marriage Registration",
+  "count": 2,
+  "types": [
+   {
+    "type": "Marriage Registration",
+    "count": 2,
+    "subcategories": [
+     {
+      "name": "Marriage Certificate not received in time.",
+      "count": 1
+     },
+     {
+      "name": "Other (Marriage Registration)",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Pension",
+  "count": 1,
+  "types": [
+   {
+    "type": "Pension Complaints",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Delay in Pension processing",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "department": "Chawl",
+  "count": 1,
+  "types": [
+   {
+    "type": "Chawl Complaints",
+    "count": 1,
+    "subcategories": [
+     {
+      "name": "Action against illegal residents",
+      "count": 1
+     }
+    ]
+   }
+  ]
+ }
+]
