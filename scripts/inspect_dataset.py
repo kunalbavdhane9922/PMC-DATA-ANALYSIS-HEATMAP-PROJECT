@@ -10,7 +10,8 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
     except Exception:
         pass
 
-DATASET_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Dataset", "Original_Data.csv")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATASET_PATH = os.path.join(BASE_DIR, "Dataset", "Working_dataset.csv")
 
 # Key columns of interest
 CATEGORY_COLUMNS = [
@@ -30,10 +31,21 @@ CATEGORY_COLUMNS = [
 def load_dataset(filepath=DATASET_PATH):
     """Load the dataset safely with feedback."""
     if not os.path.exists(filepath):
-        alt_path = os.path.join("Dataset", "Original_Data.csv")
-        if os.path.exists(alt_path):
-            filepath = alt_path
-        else:
+        candidates = [
+            os.path.join(BASE_DIR, "Dataset", "Working_dataset.csv"),
+            os.path.join(BASE_DIR, "Dataset", "working_dataset.csv"),
+            os.path.join("Dataset", "Working_dataset.csv"),
+            os.path.join("Dataset", "working_dataset.csv"),
+            os.path.join(BASE_DIR, "Dataset", "Original_Data.csv"),
+            os.path.join("Dataset", "Original_Data.csv"),
+        ]
+        found = False
+        for candidate in candidates:
+            if os.path.exists(candidate):
+                filepath = candidate
+                found = True
+                break
+        if not found:
             raise FileNotFoundError(f"Dataset not found at {filepath}")
     
     print(f"\n[*] Loading dataset from: {filepath} ...")
@@ -189,8 +201,10 @@ def search_keyword(df, query):
     print("=" * 80 + "\n")
 
 
-def export_unique_values(df, output_dir="Dataset/Categories_Export"):
+def export_unique_values(df, output_dir=None):
     """Exports all unique category values with frequencies to CSV files."""
+    if output_dir is None:
+        output_dir = os.path.join(BASE_DIR, "Dataset", "Categories_Export")
     os.makedirs(output_dir, exist_ok=True)
     print(f"\n[*] Exporting distinct category lists to folder '{output_dir}'...")
     
@@ -306,6 +320,7 @@ def interactive_menu(df):
 
 def main():
     parser = argparse.ArgumentParser(description="PMC Dataset Inspector (Menu-Driven & CLI)")
+    parser.add_argument("--data", "--path", type=str, default=DATASET_PATH, help="Path to dataset CSV file")
     parser.add_argument("--col", type=str, default=None, help="Directly list unique values for a column")
     parser.add_argument("--top", type=int, default=None, help="Limit unique values to top N")
     parser.add_argument("--row", type=int, default=None, help="Inspect a specific row index")
@@ -315,7 +330,7 @@ def main():
     parser.add_argument("--non-interactive", action="store_true", help="Run without interactive menu")
     args = parser.parse_args()
 
-    df = load_dataset()
+    df = load_dataset(args.data)
 
     # If any specific command line flag is passed, run non-interactively
     if args.row is not None or args.token is not None:
