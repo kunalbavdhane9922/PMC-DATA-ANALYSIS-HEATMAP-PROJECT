@@ -12,6 +12,8 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATASET_PATH = os.path.join(BASE_DIR, "Dataset", "Working_dataset.csv")
+if not os.path.exists(DATASET_PATH) and os.path.exists(DATASET_PATH + ".gz"):
+    DATASET_PATH = DATASET_PATH + ".gz"
 
 # Key columns of interest
 CATEGORY_COLUMNS = [
@@ -34,6 +36,11 @@ def load_dataset(filepath=DATASET_PATH):
         candidates = [
             os.path.join(BASE_DIR, "Dataset", "Working_dataset.csv"),
             os.path.join(BASE_DIR, "Dataset", "working_dataset.csv"),
+            os.path.join(BASE_DIR, "Dataset", "Working_dataset.csv.gz"),
+            os.path.join(BASE_DIR, "Dataset", "working_dataset.csv.gz"),
+            os.path.join("Dataset", "Working_dataset.csv.gz"),
+            os.path.join("Dataset", "working_dataset.csv.gz"),
+            os.path.join(BASE_DIR, "Dataset", "Original Dataset.csv.gz"),
             os.path.join("Dataset", "Working_dataset.csv"),
             os.path.join("Dataset", "working_dataset.csv"),
             os.path.join(BASE_DIR, "Dataset", "Original_Data.csv"),

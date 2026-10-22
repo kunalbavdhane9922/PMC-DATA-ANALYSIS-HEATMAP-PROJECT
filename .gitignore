@@ -1,2 +1,3 @@
-# Raw data: 166 MB (over GitHub's 100 MB limit) and contains officer names and mobile numbers
+# Raw uncompressed CSVs exceed GitHub's 100 MB limit
 *.csv
+!*.csv.gz
