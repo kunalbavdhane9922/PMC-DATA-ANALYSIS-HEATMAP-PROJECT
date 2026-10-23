@@ -1,3 +1,10 @@
 # Raw uncompressed CSVs exceed GitHub's 100 MB limit
 *.csv
 !*.csv.gz
+!HeatMap-Generation/data/processed/**/*.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
