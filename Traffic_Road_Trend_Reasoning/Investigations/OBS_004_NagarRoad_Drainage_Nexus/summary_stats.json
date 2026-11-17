@@ -1,0 +1,16 @@
+{
+  "nagar_total": 16826,
+  "drain_total": 1317,
+  "pothole_total": 703,
+  "ratio": 1.8733997155049786,
+  "pearson_r": 0.391194300395848,
+  "pearson_p": 0.14934099448317495,
+  "spearman_r": 0.4579606440071556,
+  "spearman_p": 0.08604409475547578,
+  "best_lag": 0,
+  "best_lag_r": 0.391194300395848,
+  "monsoon_drain_pct": 41.91343963553531,
+  "monsoon_pot_pct": 64.29587482219061,
+  "hadapsar_drain": 1297,
+  "hadapsar_pothole": 457
+}
